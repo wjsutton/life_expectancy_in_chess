@@ -18,4 +18,5 @@ Quick Link
 [Website]:https://wjsutton.github.io/
 
 Data [https://database.lichess.org/#standard_games](https://database.lichess.org/#standard_games)
+Understanding SAN notation [https://blog.chesshouse.com/how-to-read-and-write-algebraic-chess-notation/](https://blog.chesshouse.com/how-to-read-and-write-algebraic-chess-notation/)
 
