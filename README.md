@@ -21,3 +21,7 @@ Data [https://database.lichess.org/#standard_games](https://database.lichess.org
 
 Understanding SAN notation [https://blog.chesshouse.com/how-to-read-and-write-algebraic-chess-notation/](https://blog.chesshouse.com/how-to-read-and-write-algebraic-chess-notation/)
 
+C# repo on surviving chess pieces [ojb500/survivingpieces](https://github.com/ojb500/survivingpieces)
+
+Converting SAN notation to Long Algebraic notations [https://chess.stackexchange.com/questions/2895/how-to-convert-pgn-moves-to-long-algebraic-notation-in-python](https://chess.stackexchange.com/questions/2895/how-to-convert-pgn-moves-to-long-algebraic-notation-in-python)
+
