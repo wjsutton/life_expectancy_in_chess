@@ -1,43 +1,29 @@
+
+from itertools import islice, cycle
 import chess.pgn
-import chess
+import pandas as pd
 
 with open("data/lichess_db_standard_rated_2013-01.pgn") as pgn:
     first_game = chess.pgn.read_game(pgn)
 
-#print(first_game) # .headers)
-#print(first_game.mainline_moves())
-
-
-
 board = first_game.board()
 
-#for move in first_game.mainline_moves():
-#    print(board.san(move))
-#    print(board.lan(move))
-#    board.push(move)
-    #print(board.lan(move))
-
-#df = pd.DataFrame(columns=["SAN", "LAN"])
-
-print(first_game.mainline_moves())
-
-rows = [[board.lan(move), board.lan(move)] for move in first_game.mainline_moves()]
-print(rows)
+san_list = []
+lan_list = []
 
 for move in first_game.mainline_moves():
-    b = board.lan(move)
-    print(move)
-    print([b,type(b)])
-    #a = a.append(b)
+    san = board.san(move)
+    lan = board.lan(move)
+    san_list.append(san)
+    lan_list.append(lan)
     board.push(move)
 
-presidents = ["Washington", "Adams", "Jefferson", "Madison", "Monroe", "Adams", "Jackson"]
-for num, name in enumerate(presidents, start=1):
-    print("President {}: {}".format(num, name))
+df = pd.DataFrame()
 
-for num, name in enumerate(first_game.mainline_moves(), start=1):
-    print("President {}: {}".format(num,name))
+df['SAN'] = san_list
+df['LAN'] = lan_list
 
-#df = [x for move in first_game.mainline_moves() return board.lan(move)]
-print(a)
-#input_just_vowels = [x for x in str_list if x in vowels]
+pat = ['white','black']
+df = df.assign(player=[*islice(cycle(pat), len(df))])
+
+print(df)
