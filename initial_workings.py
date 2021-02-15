@@ -27,17 +27,19 @@ df['LAN'] = lan_list
 pat = ['white','black']
 df = df.assign(player=[*islice(cycle(pat), len(df))])
 
+df[['from_and_piece', 'to_and_result']] = df['LAN'].str.split('-|x',expand=True)
 
-df[['from', 'to']] = df['LAN'].str.split('-|x',expand=True)
+df['from'] = df['from_and_piece'].str.strip().str[-2:] 
+df['to'] = df['to_and_result'].str.strip().str[0:2]
 
 df['piece_moved'] = np.select(
     [
-        df['from'].str.len() == 2, 
-        df['from'].str[0] == 'R',
-        df['from'].str[0] == 'B',
-        df['from'].str[0] == 'N',
-        df['from'].str[0] == 'Q',
-        df['from'].str[0] == 'K'
+        df['from_and_piece'].str.len() == 2, 
+        df['from_and_piece'].str[0] == 'R',
+        df['from_and_piece'].str[0] == 'B',
+        df['from_and_piece'].str[0] == 'N',
+        df['from_and_piece'].str[0] == 'Q',
+        df['from_and_piece'].str[0] == 'K'
     ], 
     [
         'Pawn', 
@@ -46,6 +48,21 @@ df['piece_moved'] = np.select(
         'Knight',
         'Queen',
         'King'
+    ], 
+    default='Unknown'
+)
+
+df['action'] =  np.select(
+    [
+        df['LAN'].str.contains('#'),
+        df['LAN'].str.contains('-'), 
+        df['LAN'].str.contains('x')
+        
+    ], 
+    [
+        'checkmate',
+        'move', 
+        'kill'
     ], 
     default='Unknown'
 )
