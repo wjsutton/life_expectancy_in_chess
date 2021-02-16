@@ -7,20 +7,24 @@ import numpy as np
 with open("data/lichess_db_standard_rated_2013-01.pgn") as pgn:
     first_game = chess.pgn.read_game(pgn)
 
+site = first_game.headers['Site']
 board = first_game.board()
 
 san_list = []
 lan_list = []
+site_list = []
 
 for move in first_game.mainline_moves():
     san = board.san(move)
     lan = board.lan(move)
     san_list.append(san)
     lan_list.append(lan)
+    site_list.append(site)
     board.push(move)
 
 df = pd.DataFrame()
 
+df['Site'] = site_list
 df['SAN'] = san_list
 df['LAN'] = lan_list
 
@@ -68,3 +72,25 @@ df['action'] =  np.select(
 )
 
 print(df)
+
+match_metadata = { 'Event': [first_game.headers['Event']],
+'Site': [first_game.headers['Site']],
+'Date': [first_game.headers['Date']],
+'Round': [first_game.headers['Round']],
+'White': [first_game.headers['White']],
+'Black': [first_game.headers['Black']],
+'Result': [first_game.headers['Result']],
+'BlackElo': [first_game.headers['BlackElo']],
+'BlackRatingDiff': [first_game.headers['BlackRatingDiff']],
+'ECO': [first_game.headers['ECO']],
+'Opening': [first_game.headers['Opening']],
+'Termination': [first_game.headers['Termination']],
+'TimeControl': [first_game.headers['TimeControl']],
+'UTCDate': [first_game.headers['UTCDate']],
+'UTCTime': [first_game.headers['UTCTime']],
+'WhiteElo': [first_game.headers['WhiteElo']],
+'WhiteRatingDiff': [first_game.headers['WhiteRatingDiff']]}
+
+match_meta_df = pd.DataFrame(match_metadata)
+
+print(match_meta_df)
