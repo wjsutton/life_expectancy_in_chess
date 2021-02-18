@@ -4,6 +4,16 @@ import chess.pgn
 import pandas as pd
 import numpy as np
 
+## Tasks
+
+# To Do
+# - Work out piece id, e.g. White Pawn starting on E2
+# - Work out which pieces are taken
+# - Turn into function
+# - Output datasets [Match Metadata, Game Details, Piece details (survived, movement, etc.)] 
+
+start_positions = pd.read_csv('data\\start_positions.csv')
+
 with open("data/lichess_db_standard_rated_2013-01.pgn") as pgn:
     first_game = chess.pgn.read_game(pgn)
 
@@ -70,6 +80,7 @@ df['action'] =  np.select(
     ], 
     default='Unknown'
 )
+df['index'] = df.index
 
 print(df)
 
@@ -93,4 +104,30 @@ match_metadata = { 'Event': [first_game.headers['Event']],
 
 match_meta_df = pd.DataFrame(match_metadata)
 
-print(match_meta_df)
+print(start_positions)
+
+## Below not working yet, for find piece id
+
+#for i in df['index']:
+for i in df['index']:
+    current_move = df.loc[df['index'] == i]
+    previous_moves = df.loc[df['index'] < i]
+
+    piece = current_move['piece_moved']
+    player = current_move['player']
+    position = current_move['from']
+
+    a = previous_moves.loc[previous_moves['piece_moved'] == piece]
+    a = a.loc[a['player'] == player]
+    a = a.loc[a['to'] == position]
+    row_count = len(a.index)
+
+    #print(row_count)
+    #print(a)
+
+
+
+
+    #new_df = pd.merge(current_move, start_positions,  how='left', left_on=['player','piece_moved','from'], right_on = ['player','piece','start'])
+    #print(new_df)
+
