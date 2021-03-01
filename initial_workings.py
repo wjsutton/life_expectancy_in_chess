@@ -109,18 +109,24 @@ print(start_positions)
 ## Below not working yet, for find piece id
 
 #for i in df['index']:
-for i in df['index']:
-    current_move = df.loc[df['index'] == i]
-    previous_moves = df.loc[df['index'] < i]
+#for i in df['index']:
+current_move = df.loc[df['index'] == 0]
+a = start_positions.loc[start_positions['start'] == current_move['from'][0]]
+b = start_positions.loc[start_positions['start'] != current_move['from'][0]]
+a['start'] = current_move['to'][0]
 
-    piece = current_move['piece_moved']
-    player = current_move['player']
-    position = current_move['from']
+print(current_move)
+print(a)
+#previous_moves = df.loc[df['index'] < i]
 
-    a = previous_moves.loc[previous_moves['piece_moved'] == piece]
-    a = a.loc[a['player'] == player]
-    a = a.loc[a['to'] == position]
-    row_count = len(a.index)
+#    piece = current_move['piece_moved']
+#    player = current_move['player']
+#    position = current_move['from']
+
+#    a = previous_moves.loc[previous_moves['piece_moved'] == piece]
+#    a = a.loc[a['player'] == player]
+#    a = a.loc[a['to'] == position]
+#    row_count = len(a.index)
 
     #print(row_count)
     #print(a)
