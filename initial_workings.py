@@ -2,15 +2,18 @@
 from itertools import islice, cycle
 import chess.pgn
 import pandas as pd
+pd.options.mode.chained_assignment = None  # default='warn'
 import numpy as np
 
 ## Tasks
 
 # To Do
-# - Work out piece id, e.g. White Pawn starting on E2
-# - Work out which pieces are taken
 # - Turn into function
 # - Output datasets [Match Metadata, Game Details, Piece details (survived, movement, etc.)] 
+
+# Done 
+# - Work out piece id, e.g. White Pawn starting on E2
+# - Work out which pieces are taken
 
 start_positions = pd.read_csv('data\\start_positions.csv')
 
@@ -106,34 +109,37 @@ match_meta_df = pd.DataFrame(match_metadata)
 
 print(start_positions)
 
-## Below not working yet, for find piece id
+for i in df['index']:
+    current_move = df.loc[df['index'] == i]
 
-#for i in df['index']:
-#for i in df['index']:
-current_move = df.loc[df['index'] == 0]
-a = start_positions.loc[start_positions['start'] == current_move['from'][0]]
-b = start_positions.loc[start_positions['start'] != current_move['from'][0]]
-a['start'] = current_move['to'][0]
+    a = start_positions.loc[start_positions['start'] == current_move['from'][i]]
+    b = start_positions.loc[start_positions['start'] != current_move['from'][i]]
+    c = start_positions.loc[start_positions['start'] == current_move['to'][i]]
 
-print(current_move)
-print(a)
-#previous_moves = df.loc[df['index'] < i]
+    a.loc[a['start'] == current_move['from'][i], 'start'] = current_move['to'][i]
+    a = a.reset_index(drop=True)
 
-#    piece = current_move['piece_moved']
-#    player = current_move['player']
-#    position = current_move['from']
+    taken = ''
 
-#    a = previous_moves.loc[previous_moves['piece_moved'] == piece]
-#    a = a.loc[a['player'] == player]
-#    a = a.loc[a['to'] == position]
-#    row_count = len(a.index)
+    if len(c['id']) >0:
+        c = c.reset_index(drop=True)
+        taken = c['id'][0]
 
-    #print(row_count)
-    #print(a)
+    entry = { 
+        'index': i,
+        'piece_id': [a['id'][0]],
+        'killed': taken}
 
+    entry_df = pd.DataFrame(entry)
 
+    if i == 0:
+        kill_df = entry_df
 
+    if i > 0:
+        kill_df = kill_df.append(entry_df)
 
-    #new_df = pd.merge(current_move, start_positions,  how='left', left_on=['player','piece_moved','from'], right_on = ['player','piece','start'])
-    #print(new_df)
+    start_positions = a.append(b)
+
+print(kill_df)
+
 
