@@ -1,23 +1,18 @@
-
 from itertools import islice, cycle
 import chess.pgn
 import pandas as pd
 pd.options.mode.chained_assignment = None  # default='warn'
 import numpy as np
 
-## Tasks
+## To Do
+# - Handling for Castling
+# - Convert to function
 
-# To Do
-# - Turn into function
-# - Output datasets [Match Metadata, Game Details, Piece details (survived, movement, etc.)] 
-
-# Done 
-# - Work out piece id, e.g. White Pawn starting on E2
-# - Work out which pieces are taken
+# Source: https://lichess.org/study/AgKEky06
 
 start_positions = pd.read_csv('data\\start_positions.csv')
 
-with open('data/lichess_db_standard_rated_2013-01.pgn') as pgn:
+with open('data/lichess_study_elizabeth-harmon-vasily-borgov-from-netflix-miniseries-queens-gambit_by_k-io1_2020.10.27.pgn') as pgn:
     first_game = chess.pgn.read_game(pgn)
 
 site = first_game.headers['Site']
@@ -86,30 +81,9 @@ df['action'] =  np.select(
 df['index'] = df.index
 
 print(df)
-
-
 print(first_game.headers)
-match_metadata = { 'Event': [first_game.headers['Event']],
-'Site': [first_game.headers['Site']],
-'Date': [first_game.headers['Date']],
-'Round': [first_game.headers['Round']],
-'White': [first_game.headers['White']],
-'Black': [first_game.headers['Black']],
-'Result': [first_game.headers['Result']],
-'BlackElo': [first_game.headers['BlackElo']],
-'BlackRatingDiff': [first_game.headers['BlackRatingDiff']],
-'ECO': [first_game.headers['ECO']],
-'Opening': [first_game.headers['Opening']],
-'Termination': [first_game.headers['Termination']],
-'TimeControl': [first_game.headers['TimeControl']],
-'UTCDate': [first_game.headers['UTCDate']],
-'UTCTime': [first_game.headers['UTCTime']],
-'WhiteElo': [first_game.headers['WhiteElo']],
-'WhiteRatingDiff': [first_game.headers['WhiteRatingDiff']]}
 
-match_meta_df = pd.DataFrame(match_metadata)
-
-print(start_positions)
+df.to_csv('data\\queens_gambit_moves.csv', index=False)
 
 for i in df['index']:
     current_move = df.loc[df['index'] == i]
@@ -129,10 +103,14 @@ for i in df['index']:
 
     entry = { 
         'index': i,
-        'piece_id': [a['id'][0]],
+        'piece_id': a['id'],
         'killed': taken}
 
     entry_df = pd.DataFrame(entry)
+
+    if len(entry_df) > 1:
+        print('Hey Will!')
+        print(entry_df)
 
     if i == 0:
         kill_df = entry_df
@@ -151,13 +129,3 @@ killed_by.columns = ['killed_by','id']
 
 start_positions['survived'] = ~start_positions['id'].isin(deceased['killed'])
 start_positions = pd.merge(start_positions,killed_by,on='id', how='left')
-print(start_positions)
-
-start_positions.to_csv('data\\test_output.csv', index=False)
-
-timeline_df = pd.merge(df,kill_df, on='index', how='inner')
-print(timeline_df)
-
-print(match_meta_df)
-print(match_meta_df.columns)
-
