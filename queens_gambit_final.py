@@ -67,21 +67,113 @@ df['piece_moved'] = np.select(
 df['action'] =  np.select(
     [
         df['LAN'].str.contains('#'),
-        df['LAN'].str.contains('-'), 
-        df['LAN'].str.contains('x')
+        df['LAN'].str.contains('x'),
+        df['LAN'].str.contains('\+'),
+        df['LAN'].str.contains('-')
         
     ], 
     [
         'checkmate',
-        'move', 
-        'kill'
+        'kill',
+        'check',
+        'move'
     ], 
     default='Unknown'
 )
 df['index'] = df.index
 
+# queen side castling
+qs_castling = df.loc[df['LAN'] == 'O-O']
+
+if len(qs_castling)>0:
+    print('Queen side Castling!')
+    white_qs_castling = pd.DataFrame()
+    black_qs_castling = pd.DataFrame()
+    for i in range(len(qs_castling)):
+        if qs_castling.iloc[i]['player'] == 'black':
+            black_qs_castling['Site'] = [qs_castling.iloc[i]['Site'],qs_castling.iloc[i]['Site']]
+            black_qs_castling['SAN'] = [qs_castling.iloc[i]['SAN'],qs_castling.iloc[i]['SAN']]
+            black_qs_castling['LAN'] = [qs_castling.iloc[i]['LAN'],qs_castling.iloc[i]['LAN']]
+            black_qs_castling['player'] = [qs_castling.iloc[i]['player'],qs_castling.iloc[i]['player']]
+            black_qs_castling['from_and_piece'] = ['e8','h8']
+            black_qs_castling['to_and_result'] = ['g8','f8']
+            black_qs_castling['from'] = ['e8','h8']
+            black_qs_castling['to'] = ['g8','f8']
+            black_qs_castling['piece_moved'] = ['King','Rook']
+            black_qs_castling['action'] = [qs_castling.iloc[i]['action'],qs_castling.iloc[i]['action']]
+            black_qs_castling['index'] = [qs_castling.iloc[i]['index'],qs_castling.iloc[i]['index']]
+        else:
+            white_qs_castling['Site'] = [qs_castling.iloc[i]['Site'],qs_castling.iloc[i]['Site']]
+            white_qs_castling['SAN'] = [qs_castling.iloc[i]['SAN'],qs_castling.iloc[i]['SAN']]
+            white_qs_castling['LAN'] = [qs_castling.iloc[i]['LAN'],qs_castling.iloc[i]['LAN']]
+            white_qs_castling['player'] = [qs_castling.iloc[i]['player'],qs_castling.iloc[i]['player']]
+            white_qs_castling['from_and_piece'] = ['e1','h1']
+            white_qs_castling['to_and_result'] = ['g1','f1']
+            white_qs_castling['from'] = ['e1','h1']
+            white_qs_castling['to'] = ['g1','f1']
+            white_qs_castling['piece_moved'] = ['King','Rook']
+            white_qs_castling['action'] = [qs_castling.iloc[i]['action'],qs_castling.iloc[i]['action']]
+            white_qs_castling['index'] = [qs_castling.iloc[i]['index'],qs_castling.iloc[i]['index']]
+
+    if (len(white_qs_castling) + len(black_qs_castling))>1:
+        replacement_moves = white_qs_castling.append(black_qs_castling)
+    elif len(black_qs_castling)>1:
+        replacement_moves = black_qs_castling
+    else: 
+        replacement_moves = white_qs_castling
+
+    other_moves = df.loc[df['LAN'] != 'O-O']
+    df = other_moves.append(replacement_moves)
+    df = df.sort_values(by=['index'])
+    df = df.reset_index()
+    df['index'] = df.index
+
+# king side castling
+ks_castling = df.loc[df['LAN'] == 'O-O-O']
+if len(ks_castling)>0:
+    print('King side Castling!')
+    print(ks_castling)
+    white_ks_castling = pd.DataFrame()
+    black_ks_castling = pd.DataFrame()
+    for i in range(len(ks_castling)):
+        if ks_castling.iloc[i]['player'] == 'black':
+            black_ks_castling['Site'] = [ks_castling.iloc[i]['Site'],ks_castling.iloc[i]['Site']]
+            black_ks_castling['SAN'] = [ks_castling.iloc[i]['SAN'],ks_castling.iloc[i]['SAN']]
+            black_ks_castling['LAN'] = [ks_castling.iloc[i]['LAN'],ks_castling.iloc[i]['LAN']]
+            black_ks_castling['player'] = [ks_castling.iloc[i]['player'],ks_castling.iloc[i]['player']]
+            black_qs_castling['from_and_piece'] = ['e8','a8']
+            black_ks_castling['to_and_result'] = ['g8','f8']
+            black_ks_castling['from'] = ['e8','a8']
+            black_ks_castling['to'] = ['g8','f8']
+            black_ks_castling['piece_moved'] = ['King','Rook']
+            black_ks_castling['action'] = [ks_castling.iloc[i]['action'],ks_castling.iloc[i]['action']]
+            black_ks_castling['index'] = [ks_castling.iloc[i]['index'],ks_castling.iloc[i]['index']]
+        else:
+            white_ks_castling['Site'] = [ks_castling.iloc[i]['Site'],ks_castling.iloc[i]['Site']]
+            white_ks_castling['SAN'] = [ks_castling.iloc[i]['SAN'],ks_castling.iloc[i]['SAN']]
+            white_ks_castling['LAN'] = [ks_castling.iloc[i]['LAN'],ks_castling.iloc[i]['LAN']]
+            white_ks_castling['player'] = [ks_castling.iloc[i]['player'],ks_castling.iloc[i]['player']]
+            white_ks_castling['from_and_piece'] = ['e1','a1']
+            white_ks_castling['to_and_result'] = ['c1','d1']
+            white_ks_castling['from'] = ['e1','a1']
+            white_ks_castling['to'] = ['c1','d1']
+            white_ks_castling['piece_moved'] = ['King','Rook']
+            white_ks_castling['action'] = [ks_castling.iloc[i]['action'],ks_castling.iloc[i]['action']]
+            white_ks_castling['index'] = [ks_castling.iloc[i]['index'],ks_castling.iloc[i]['index']]
+
+    if (len(white_ks_castling) + len(black_ks_castling))>1:
+        replacement_moves = white_ks_castling.append(black_ks_castling)
+    elif len(black_ks_castling)>1:
+        replacement_moves = black_ks_castling
+    else: 
+        replacement_moves = white_ks_castling
+
+    other_moves = df.loc[df['LAN'] != 'O-O-O']
+    df = other_moves.append(replacement_moves)
+    df = df.sort_values(by=['index'])
+
 print(df)
-print(first_game.headers)
+#print(first_game.headers)
 
 df.to_csv('data\\queens_gambit_moves.csv', index=False)
 
@@ -101,6 +193,8 @@ for i in df['index']:
         c = c.reset_index(drop=True)
         taken = c['id'][0]
 
+    b.loc[b['id'] == taken, 'start'] = None
+
     entry = { 
         'index': i,
         'piece_id': a['id'],
@@ -108,7 +202,7 @@ for i in df['index']:
 
     entry_df = pd.DataFrame(entry)
 
-    if len(entry_df) > 1:
+    if len(entry_df)>1:
         print('Hey Will!')
         print(entry_df)
 
@@ -120,12 +214,6 @@ for i in df['index']:
 
     start_positions = a.append(b)
 
+start_positions.to_csv('data\\queens_gambit_positions.csv', index=False)
 print(kill_df)
-deceased = kill_df[kill_df['killed'] != '']
-#deceased = kill_df[killed].notnull()
-print(deceased)
-killed_by = deceased[['piece_id','killed']]
-killed_by.columns = ['killed_by','id']
-
-start_positions['survived'] = ~start_positions['id'].isin(deceased['killed'])
-start_positions = pd.merge(start_positions,killed_by,on='id', how='left')
+kill_df.to_csv('data\\queens_gambit_kills.csv', index=False)
