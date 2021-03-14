@@ -68,7 +68,7 @@ df['action'] =  np.select(
     [
         df['LAN'].str.contains('#'),
         df['LAN'].str.contains('x'),
-        df['LAN'].str.contains('\+'),
+        df['LAN'].str.contains(r'\+'),
         df['LAN'].str.contains('-')
         
     ], 
@@ -172,10 +172,8 @@ if len(ks_castling)>0:
     df = other_moves.append(replacement_moves)
     df = df.sort_values(by=['index'])
 
-print(df)
-#print(first_game.headers)
 
-df.to_csv('data\\queens_gambit_moves.csv', index=False)
+
 
 for i in df['index']:
     current_move = df.loc[df['index'] == i]
@@ -214,6 +212,18 @@ for i in df['index']:
 
     start_positions = a.append(b)
 
-start_positions.to_csv('data\\queens_gambit_positions.csv', index=False)
+
 print(kill_df)
-kill_df.to_csv('data\\queens_gambit_kills.csv', index=False)
+print(first_game.headers)
+
+df['player_name'] = np.where(df['player']=='white', first_game.headers['White'], first_game.headers['Black'])
+result = np.where(first_game.headers['Result']=='1-0','white wins',np.where(first_game.headers['Result']=='0-1','black wins','draw'))
+df['result'] = np.where(df['player']=='white',result,result)
+start_positions['result'] = np.where(start_positions['player']=='white',result,result)
+start_positions['Site'] = np.where(start_positions['player']=='white',df['Site'][0],df['Site'][0])
+print(df)
+print(start_positions)
+
+#df.to_csv('data\\queens_gambit_moves.csv', index=False)
+#start_positions.to_csv('data\\queens_gambit_positions.csv', index=False)
+#kill_df.to_csv('data\\queens_gambit_kills.csv', index=False)
