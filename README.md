@@ -31,3 +31,10 @@ Useful links:
 - C# repo on surviving chess pieces [ojb500/survivingpieces](https://github.com/ojb500/survivingpieces)
 - Converting SAN notation to Long Algebraic notations [https://chess.stackexchange.com/questions/2895/how-to-convert-pgn-moves-to-long-algebraic-notation-in-python](https://chess.stackexchange.com/questions/2895/how-to-convert-pgn-moves-to-long-algebraic-notation-in-python)
 
+Sample Chess matches to include
+
+Garry Kasparov vs Magnus Carlsen: [https://lichess.org/study/dkBrvFEK](https://lichess.org/study/dkBrvFEK)
+Garry Kasparov VS Deep Blue: [https://lichess.org/study/mMd71FFj](https://lichess.org/study/mMd71FFj)
+Judit Polgar vs Garry Kasparov, Moscow 2002: [https://lichess.org/study/IKi04lMM/bkjHPMaE](https://lichess.org/study/IKi04lMM/bkjHPMaE)
+Carlsen, Magnus vs 	Nepomniachtchi, Ian: [https://lichess.org/broadcast/chess24-legends-of-chess-finals-day-2/kRHLCPAl](https://lichess.org/broadcast/chess24-legends-of-chess-finals-day-2/kRHLCPAl)
+All beth harmon: [https://lichess.org/study/dffUtue4/cOBFJKQI](https://lichess.org/study/dffUtue4/cOBFJKQI)
