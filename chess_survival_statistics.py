@@ -4,8 +4,8 @@ import pandas as pd
 pd.options.mode.chained_assignment = None  # default='warn'
 import numpy as np
 
-with open('data/lichess_db_standard_rated_2013-01.pgn') as pgn:
-    for file in range(1000):
+with open('data/standard_matches/lichess_db_standard_rated_2013-01.pgn') as pgn:
+    for file in range(10000):
 
         start_positions = pd.read_csv('data\\start_positions.csv')
         
@@ -235,5 +235,5 @@ with open('data/lichess_db_standard_rated_2013-01.pgn') as pgn:
 print('Done!')
 print(len(output_df))
 
-output_df.to_csv('data\\test_survival_stats.csv', index=False)
+output_df.to_csv('data\\test_survival_stats2.csv', index=False)
 

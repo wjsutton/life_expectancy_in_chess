@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Load data
-survival_stats = pd.read_csv('data\\test_survival_stats.csv')
+survival_stats = pd.read_csv('data\\test_survival_stats2.csv')
 
 # calculate capture rate for kings
 survival_stats['captured'] = np.where(survival_stats['player'] == survival_stats['result'].str[:5],False,True)
