@@ -1,0 +1,257 @@
+id,player,piece,start,result,Site,survived,captured,survived_or_captured,match_name,killed_by,piece_id_survival_rate,piece_survival_rate,overall_survival_rate
+W-N-b,white,Knight,d5,white wins,https://play.chess24.com/play/dd1c640dd89d,True,False,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.3404,0.3041,0.4976875
+W-N-b,white,Knight,,white wins,https://lichess.org/FXsStJfd,False,False,False,Elizabeth Harmon (white) vs Vasily Borgov (black),B-B-c,0.3404,0.3041,0.4976875
+W-N-b,white,Knight,,white wins,Bled SLO,False,False,False,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),B-B-f,0.3404,0.3041,0.4976875
+W-N-b,white,Knight,g5,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,True,False,True,Deep Blue (white) vs Garry Kasparov (black),,0.3404,0.3041,0.4976875
+W-N-b,white,Knight,e6,white wins,Wijk aan Zee NED,True,False,True,Veselin Topalov (white) vs Vladimir Kramnik (black),,0.3404,0.3041,0.4976875
+W-N-b,white,Knight,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),B-N-b,0.3404,0.3041,0.4976875
+W-N-b,white,Knight,,black wins,"New York, NY USA",False,True,False,Donald Byrne (white) vs Robert James Fischer (black),B-N-b,0.3404,0.3041,0.4976875
+W-N-b,white,Knight,,black wins,Hastings ENG,False,True,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),B-P-e,0.3404,0.3041,0.4976875
+B-N-b,black,Knight,d7,white wins,https://play.chess24.com/play/dd1c640dd89d,True,True,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.3052,0.3041,0.4976875
+B-N-b,black,Knight,,white wins,https://lichess.org/FXsStJfd,False,True,False,Elizabeth Harmon (white) vs Vasily Borgov (black),W-Q,0.3052,0.3041,0.4976875
+B-N-b,black,Knight,c6,white wins,Bled SLO,True,True,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.3052,0.3041,0.4976875
+B-N-b,black,Knight,f2,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,True,True,True,Deep Blue (white) vs Garry Kasparov (black),,0.3052,0.3041,0.4976875
+B-N-b,black,Knight,d7,white wins,Wijk aan Zee NED,True,True,True,Veselin Topalov (white) vs Vladimir Kramnik (black),,0.3052,0.3041,0.4976875
+B-N-b,black,Knight,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),W-B-f,0.3052,0.3041,0.4976875
+B-N-b,black,Knight,,black wins,"New York, NY USA",False,False,False,Donald Byrne (white) vs Robert James Fischer (black),W-P-b,0.3052,0.3041,0.4976875
+B-N-b,black,Knight,,black wins,Hastings ENG,False,False,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),W-B-f,0.3052,0.3041,0.4976875
+W-P-e,white,Pawn,e4,white wins,https://play.chess24.com/play/dd1c640dd89d,True,False,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.3388,0.561875,0.4976875
+W-P-e,white,Pawn,,white wins,https://lichess.org/FXsStJfd,False,False,False,Elizabeth Harmon (white) vs Vasily Borgov (black),B-P-f,0.3388,0.561875,0.4976875
+W-P-e,white,Pawn,,white wins,Bled SLO,False,False,False,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),B-N-g,0.3388,0.561875,0.4976875
+W-P-e,white,Pawn,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,False,False,Deep Blue (white) vs Garry Kasparov (black),B-Q,0.3388,0.561875,0.4976875
+W-P-e,white,Pawn,e7,white wins,Wijk aan Zee NED,True,False,True,Veselin Topalov (white) vs Vladimir Kramnik (black),,0.3388,0.561875,0.4976875
+W-P-e,white,Pawn,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),B-P-g,0.3388,0.561875,0.4976875
+W-P-e,white,Pawn,,black wins,"New York, NY USA",False,True,False,Donald Byrne (white) vs Robert James Fischer (black),B-N-g,0.3388,0.561875,0.4976875
+W-P-e,white,Pawn,,black wins,Hastings ENG,False,True,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),B-N-g,0.3388,0.561875,0.4976875
+B-Q,black,Queen,c6,white wins,https://play.chess24.com/play/dd1c640dd89d,True,True,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.4797,0.4861,0.4976875
+B-Q,black,Queen,e4,white wins,https://lichess.org/FXsStJfd,True,True,True,Elizabeth Harmon (white) vs Vasily Borgov (black),,0.4797,0.4861,0.4976875
+B-Q,black,Queen,e5,white wins,Bled SLO,True,True,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.4797,0.4861,0.4976875
+B-Q,black,Queen,f6,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,True,True,True,Deep Blue (white) vs Garry Kasparov (black),,0.4797,0.4861,0.4976875
+B-Q,black,Queen,d3,white wins,Wijk aan Zee NED,True,True,True,Veselin Topalov (white) vs Vladimir Kramnik (black),,0.4797,0.4861,0.4976875
+B-Q,black,Queen,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),W-Q,0.4797,0.4861,0.4976875
+B-Q,black,Queen,,black wins,"New York, NY USA",False,False,False,Donald Byrne (white) vs Robert James Fischer (black),W-B-c,0.4797,0.4861,0.4976875
+B-Q,black,Queen,,black wins,Hastings ENG,False,False,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),W-R-a,0.4797,0.4861,0.4976875
+W-B-c,white,Bishop,f2,white wins,https://play.chess24.com/play/dd1c640dd89d,True,False,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.3424,0.342575,0.4976875
+W-B-c,white,Bishop,c5,white wins,https://lichess.org/FXsStJfd,True,False,True,Elizabeth Harmon (white) vs Vasily Borgov (black),,0.3424,0.342575,0.4976875
+W-B-c,white,Bishop,e7,white wins,Bled SLO,True,False,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.3424,0.342575,0.4976875
+W-B-c,white,Bishop,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,False,False,Deep Blue (white) vs Garry Kasparov (black),B-P-g,0.3424,0.342575,0.4976875
+W-B-c,white,Bishop,e5,white wins,Wijk aan Zee NED,True,False,True,Veselin Topalov (white) vs Vladimir Kramnik (black),,0.3424,0.342575,0.4976875
+W-B-c,white,Bishop,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),B-R-h,0.3424,0.342575,0.4976875
+W-B-c,white,Bishop,,black wins,"New York, NY USA",False,True,False,Donald Byrne (white) vs Robert James Fischer (black),B-P-a,0.3424,0.342575,0.4976875
+W-B-c,white,Bishop,,black wins,Hastings ENG,False,True,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),B-B-f,0.3424,0.342575,0.4976875
+B-R-a,black,Rook,e8,white wins,https://play.chess24.com/play/dd1c640dd89d,True,True,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.5857,0.58675,0.4976875
+B-R-a,black,Rook,,white wins,https://lichess.org/FXsStJfd,False,True,False,Elizabeth Harmon (white) vs Vasily Borgov (black),W-R-a,0.5857,0.58675,0.4976875
+B-R-a,black,Rook,a8,white wins,Bled SLO,True,True,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.5857,0.58675,0.4976875
+B-R-a,black,Rook,e1,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,True,True,True,Deep Blue (white) vs Garry Kasparov (black),,0.5857,0.58675,0.4976875
+B-R-a,black,Rook,,white wins,Wijk aan Zee NED,False,True,False,Veselin Topalov (white) vs Vladimir Kramnik (black),W-N-b,0.5857,0.58675,0.4976875
+B-R-a,black,Rook,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),W-R-h,0.5857,0.58675,0.4976875
+B-R-a,black,Rook,c2,black wins,"New York, NY USA",True,False,True,Donald Byrne (white) vs Robert James Fischer (black),,0.5857,0.58675,0.4976875
+B-R-a,black,Rook,,black wins,Hastings ENG,False,False,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),W-R-a,0.5857,0.58675,0.4976875
+W-N-g,white,Knight,g3,white wins,https://play.chess24.com/play/dd1c640dd89d,True,False,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.2827,0.3041,0.4976875
+W-N-g,white,Knight,,white wins,https://lichess.org/FXsStJfd,False,False,False,Elizabeth Harmon (white) vs Vasily Borgov (black),B-P-c,0.2827,0.3041,0.4976875
+W-N-g,white,Knight,,white wins,Bled SLO,False,False,False,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),B-K,0.2827,0.3041,0.4976875
+W-N-g,white,Knight,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,False,False,Deep Blue (white) vs Garry Kasparov (black),B-P-a,0.2827,0.3041,0.4976875
+W-N-g,white,Knight,,white wins,Wijk aan Zee NED,False,False,False,Veselin Topalov (white) vs Vladimir Kramnik (black),B-K,0.2827,0.3041,0.4976875
+W-N-g,white,Knight,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),B-B-f,0.2827,0.3041,0.4976875
+W-N-g,white,Knight,e5,black wins,"New York, NY USA",True,True,True,Donald Byrne (white) vs Robert James Fischer (black),,0.2827,0.3041,0.4976875
+W-N-g,white,Knight,,black wins,Hastings ENG,False,True,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),B-P-b,0.2827,0.3041,0.4976875
+W-R-h,white,Rook,f3,white wins,https://play.chess24.com/play/dd1c640dd89d,True,False,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.5827,0.58675,0.4976875
+W-R-h,white,Rook,f2,white wins,https://lichess.org/FXsStJfd,True,False,True,Elizabeth Harmon (white) vs Vasily Borgov (black),,0.5827,0.58675,0.4976875
+W-R-h,white,Rook,e1,white wins,Bled SLO,True,False,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.5827,0.58675,0.4976875
+W-R-h,white,Rook,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,False,False,Deep Blue (white) vs Garry Kasparov (black),B-P-e,0.5827,0.58675,0.4976875
+W-R-h,white,Rook,b1,white wins,Wijk aan Zee NED,True,False,True,Veselin Topalov (white) vs Vladimir Kramnik (black),,0.5827,0.58675,0.4976875
+W-R-h,white,Rook,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),B-Q,0.5827,0.58675,0.4976875
+W-R-h,white,Rook,,black wins,"New York, NY USA",False,True,False,Donald Byrne (white) vs Robert James Fischer (black),B-R-h,0.5827,0.58675,0.4976875
+W-R-h,white,Rook,,black wins,Hastings ENG,False,True,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),B-P-e,0.5827,0.58675,0.4976875
+B-N-g,black,Knight,g7,white wins,https://play.chess24.com/play/dd1c640dd89d,True,True,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.2881,0.3041,0.4976875
+B-N-g,black,Knight,,white wins,https://lichess.org/FXsStJfd,False,True,False,Elizabeth Harmon (white) vs Vasily Borgov (black),W-N-b,0.2881,0.3041,0.4976875
+B-N-g,black,Knight,e6,white wins,Bled SLO,True,True,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.2881,0.3041,0.4976875
+B-N-g,black,Knight,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,True,False,Deep Blue (white) vs Garry Kasparov (black),W-B-c,0.2881,0.3041,0.4976875
+B-N-g,black,Knight,,white wins,Wijk aan Zee NED,False,True,False,Veselin Topalov (white) vs Vladimir Kramnik (black),W-P-b,0.2881,0.3041,0.4976875
+B-N-g,black,Knight,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),W-P-h,0.2881,0.3041,0.4976875
+B-N-g,black,Knight,c3,black wins,"New York, NY USA",True,False,True,Donald Byrne (white) vs Robert James Fischer (black),,0.2881,0.3041,0.4976875
+B-N-g,black,Knight,,black wins,Hastings ENG,False,False,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),W-N-g,0.2881,0.3041,0.4976875
+W-P-g,white,Pawn,g4,white wins,https://play.chess24.com/play/dd1c640dd89d,True,False,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.6766,0.561875,0.4976875
+W-P-g,white,Pawn,g3,white wins,https://lichess.org/FXsStJfd,True,False,True,Elizabeth Harmon (white) vs Vasily Borgov (black),,0.6766,0.561875,0.4976875
+W-P-g,white,Pawn,g2,white wins,Bled SLO,True,False,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.6766,0.561875,0.4976875
+W-P-g,white,Pawn,g3,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,True,False,True,Deep Blue (white) vs Garry Kasparov (black),,0.6766,0.561875,0.4976875
+W-P-g,white,Pawn,g2,white wins,Wijk aan Zee NED,True,False,True,Veselin Topalov (white) vs Vladimir Kramnik (black),,0.6766,0.561875,0.4976875
+W-P-g,white,Pawn,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),B-N-g,0.6766,0.561875,0.4976875
+W-P-g,white,Pawn,g2,black wins,"New York, NY USA",True,True,True,Donald Byrne (white) vs Robert James Fischer (black),,0.6766,0.561875,0.4976875
+W-P-g,white,Pawn,,black wins,Hastings ENG,False,True,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),B-P-g,0.6766,0.561875,0.4976875
+B-B-f,black,Bishop,h6,white wins,https://play.chess24.com/play/dd1c640dd89d,True,True,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.3404,0.342575,0.4976875
+B-B-f,black,Bishop,,white wins,https://lichess.org/FXsStJfd,False,True,False,Elizabeth Harmon (white) vs Vasily Borgov (black),W-N-g,0.3404,0.342575,0.4976875
+B-B-f,black,Bishop,c5,white wins,Bled SLO,True,True,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.3404,0.342575,0.4976875
+B-B-f,black,Bishop,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,True,False,Deep Blue (white) vs Garry Kasparov (black),W-N-g,0.3404,0.342575,0.4976875
+B-B-f,black,Bishop,,white wins,Wijk aan Zee NED,False,True,False,Veselin Topalov (white) vs Vladimir Kramnik (black),W-Q,0.3404,0.342575,0.4976875
+B-B-f,black,Bishop,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),W-B-c,0.3404,0.342575,0.4976875
+B-B-f,black,Bishop,b4,black wins,"New York, NY USA",True,False,True,Donald Byrne (white) vs Robert James Fischer (black),,0.3404,0.342575,0.4976875
+B-B-f,black,Bishop,,black wins,Hastings ENG,False,False,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),W-N-b,0.3404,0.342575,0.4976875
+B-P-h,black,Pawn,g5,white wins,https://play.chess24.com/play/dd1c640dd89d,True,True,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.7227,0.561875,0.4976875
+B-P-h,black,Pawn,h6,white wins,https://lichess.org/FXsStJfd,True,True,True,Elizabeth Harmon (white) vs Vasily Borgov (black),,0.7227,0.561875,0.4976875
+B-P-h,black,Pawn,h7,white wins,Bled SLO,True,True,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.7227,0.561875,0.4976875
+B-P-h,black,Pawn,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,True,False,Deep Blue (white) vs Garry Kasparov (black),W-R-a,0.7227,0.561875,0.4976875
+B-P-h,black,Pawn,h4,white wins,Wijk aan Zee NED,True,True,True,Veselin Topalov (white) vs Vladimir Kramnik (black),,0.7227,0.561875,0.4976875
+B-P-h,black,Pawn,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),W-R-a,0.7227,0.561875,0.4976875
+B-P-h,black,Pawn,h5,black wins,"New York, NY USA",True,False,True,Donald Byrne (white) vs Robert James Fischer (black),,0.7227,0.561875,0.4976875
+B-P-h,black,Pawn,h6,black wins,Hastings ENG,True,False,True,Efim Bogoljubov (white) vs Alexander Alekhine (black),,0.7227,0.561875,0.4976875
+W-P-f,white,Pawn,,white wins,https://play.chess24.com/play/dd1c640dd89d,False,False,False,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",B-P-h,0.5917,0.561875,0.4976875
+W-P-f,white,Pawn,,white wins,https://lichess.org/FXsStJfd,False,False,False,Elizabeth Harmon (white) vs Vasily Borgov (black),B-R-h,0.5917,0.561875,0.4976875
+W-P-f,white,Pawn,f2,white wins,Bled SLO,True,False,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.5917,0.561875,0.4976875
+W-P-f,white,Pawn,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,False,False,Deep Blue (white) vs Garry Kasparov (black),B-N-b,0.5917,0.561875,0.4976875
+W-P-f,white,Pawn,f2,white wins,Wijk aan Zee NED,True,False,True,Veselin Topalov (white) vs Vladimir Kramnik (black),,0.5917,0.561875,0.4976875
+W-P-f,white,Pawn,f7,draw,Portoroz SVN,True,True,True,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),,0.5917,0.561875,0.4976875
+W-P-f,white,Pawn,,black wins,"New York, NY USA",False,True,False,Donald Byrne (white) vs Robert James Fischer (black),B-N-g,0.5917,0.561875,0.4976875
+W-P-f,white,Pawn,f4,black wins,Hastings ENG,True,True,True,Efim Bogoljubov (white) vs Alexander Alekhine (black),,0.5917,0.561875,0.4976875
+W-P-h,white,Pawn,h3,white wins,https://play.chess24.com/play/dd1c640dd89d,True,False,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.7335,0.561875,0.4976875
+W-P-h,white,Pawn,,white wins,https://lichess.org/FXsStJfd,False,False,False,Elizabeth Harmon (white) vs Vasily Borgov (black),B-Q,0.7335,0.561875,0.4976875
+W-P-h,white,Pawn,h2,white wins,Bled SLO,True,False,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.7335,0.561875,0.4976875
+W-P-h,white,Pawn,h3,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,True,False,True,Deep Blue (white) vs Garry Kasparov (black),,0.7335,0.561875,0.4976875
+W-P-h,white,Pawn,h3,white wins,Wijk aan Zee NED,True,False,True,Veselin Topalov (white) vs Vladimir Kramnik (black),,0.7335,0.561875,0.4976875
+W-P-h,white,Pawn,g6,draw,Portoroz SVN,True,True,True,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),,0.7335,0.561875,0.4976875
+W-P-h,white,Pawn,h4,black wins,"New York, NY USA",True,True,True,Donald Byrne (white) vs Robert James Fischer (black),,0.7335,0.561875,0.4976875
+W-P-h,white,Pawn,h5,black wins,Hastings ENG,True,True,True,Efim Bogoljubov (white) vs Alexander Alekhine (black),,0.7335,0.561875,0.4976875
+B-R-h,black,Rook,e6,white wins,https://play.chess24.com/play/dd1c640dd89d,True,True,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.5792,0.58675,0.4976875
+B-R-h,black,Rook,,white wins,https://lichess.org/FXsStJfd,False,True,False,Elizabeth Harmon (white) vs Vasily Borgov (black),W-K,0.5792,0.58675,0.4976875
+B-R-h,black,Rook,h8,white wins,Bled SLO,True,True,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.5792,0.58675,0.4976875
+B-R-h,black,Rook,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,True,False,Deep Blue (white) vs Garry Kasparov (black),W-R-h,0.5792,0.58675,0.4976875
+B-R-h,black,Rook,g8,white wins,Wijk aan Zee NED,True,True,True,Veselin Topalov (white) vs Vladimir Kramnik (black),,0.5792,0.58675,0.4976875
+B-R-h,black,Rook,g8,draw,Portoroz SVN,True,True,True,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),,0.5792,0.58675,0.4976875
+B-R-h,black,Rook,,black wins,"New York, NY USA",False,False,False,Donald Byrne (white) vs Robert James Fischer (black),W-N-g,0.5792,0.58675,0.4976875
+B-R-h,black,Rook,,black wins,Hastings ENG,False,False,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),W-R-a,0.5792,0.58675,0.4976875
+W-B-f,white,Bishop,,white wins,https://play.chess24.com/play/dd1c640dd89d,False,False,False,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",B-R-h,0.3287,0.342575,0.4976875
+W-B-f,white,Bishop,,white wins,https://lichess.org/FXsStJfd,False,False,False,Elizabeth Harmon (white) vs Vasily Borgov (black),B-N-g,0.3287,0.342575,0.4976875
+W-B-f,white,Bishop,,white wins,Bled SLO,False,False,False,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),B-N-g,0.3287,0.342575,0.4976875
+W-B-f,white,Bishop,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,False,False,Deep Blue (white) vs Garry Kasparov (black),B-B-c,0.3287,0.342575,0.4976875
+W-B-f,white,Bishop,,white wins,Wijk aan Zee NED,False,False,False,Veselin Topalov (white) vs Vladimir Kramnik (black),B-Q,0.3287,0.342575,0.4976875
+W-B-f,white,Bishop,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),B-K,0.3287,0.342575,0.4976875
+W-B-f,white,Bishop,,black wins,"New York, NY USA",False,True,False,Donald Byrne (white) vs Robert James Fischer (black),B-B-c,0.3287,0.342575,0.4976875
+W-B-f,white,Bishop,,black wins,Hastings ENG,False,True,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),B-P-e,0.3287,0.342575,0.4976875
+B-B-c,black,Bishop,,white wins,https://play.chess24.com/play/dd1c640dd89d,False,True,False,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",W-B-f,0.3588,0.342575,0.4976875
+B-B-c,black,Bishop,,white wins,https://lichess.org/FXsStJfd,False,True,False,Elizabeth Harmon (white) vs Vasily Borgov (black),W-P-d,0.3588,0.342575,0.4976875
+B-B-c,black,Bishop,,white wins,Bled SLO,False,True,False,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),W-B-f,0.3588,0.342575,0.4976875
+B-B-c,black,Bishop,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,True,False,Deep Blue (white) vs Garry Kasparov (black),W-Q,0.3588,0.342575,0.4976875
+B-B-c,black,Bishop,,white wins,Wijk aan Zee NED,False,True,False,Veselin Topalov (white) vs Vladimir Kramnik (black),W-N-b,0.3588,0.342575,0.4976875
+B-B-c,black,Bishop,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),W-N-b,0.3588,0.342575,0.4976875
+B-B-c,black,Bishop,b3,black wins,"New York, NY USA",True,False,True,Donald Byrne (white) vs Robert James Fischer (black),,0.3588,0.342575,0.4976875
+B-B-c,black,Bishop,,black wins,Hastings ENG,False,False,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),W-R-a,0.3588,0.342575,0.4976875
+B-P-f,black,Pawn,,white wins,https://play.chess24.com/play/dd1c640dd89d,False,True,False,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",W-R-h,0.5723,0.561875,0.4976875
+B-P-f,black,Pawn,,white wins,https://lichess.org/FXsStJfd,False,True,False,Elizabeth Harmon (white) vs Vasily Borgov (black),W-P-f,0.5723,0.561875,0.4976875
+B-P-f,black,Pawn,,white wins,Bled SLO,False,True,False,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),W-N-g,0.5723,0.561875,0.4976875
+B-P-f,black,Pawn,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,True,False,Deep Blue (white) vs Garry Kasparov (black),W-N-b,0.5723,0.561875,0.4976875
+B-P-f,black,Pawn,,white wins,Wijk aan Zee NED,False,True,False,Veselin Topalov (white) vs Vladimir Kramnik (black),W-N-g,0.5723,0.561875,0.4976875
+B-P-f,black,Pawn,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),W-P-e,0.5723,0.561875,0.4976875
+B-P-f,black,Pawn,f7,black wins,"New York, NY USA",True,False,True,Donald Byrne (white) vs Robert James Fischer (black),,0.5723,0.561875,0.4976875
+B-P-f,black,Pawn,,black wins,Hastings ENG,False,False,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),W-P-g,0.5723,0.561875,0.4976875
+W-P-d,white,Pawn,,white wins,https://play.chess24.com/play/dd1c640dd89d,False,False,False,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",B-N-b,0.3383,0.561875,0.4976875
+W-P-d,white,Pawn,e8,white wins,https://lichess.org/FXsStJfd,True,False,True,Elizabeth Harmon (white) vs Vasily Borgov (black),,0.3383,0.561875,0.4976875
+W-P-d,white,Pawn,,white wins,Bled SLO,False,False,False,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),B-B-c,0.3383,0.561875,0.4976875
+W-P-d,white,Pawn,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,False,False,Deep Blue (white) vs Garry Kasparov (black),B-P-c,0.3383,0.561875,0.4976875
+W-P-d,white,Pawn,,white wins,Wijk aan Zee NED,False,False,False,Veselin Topalov (white) vs Vladimir Kramnik (black),B-Q,0.3383,0.561875,0.4976875
+W-P-d,white,Pawn,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),B-K,0.3383,0.561875,0.4976875
+W-P-d,white,Pawn,,black wins,"New York, NY USA",False,True,False,Donald Byrne (white) vs Robert James Fischer (black),B-N-g,0.3383,0.561875,0.4976875
+W-P-d,white,Pawn,,black wins,Hastings ENG,False,True,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),B-P-c,0.3383,0.561875,0.4976875
+B-P-e,black,Pawn,,white wins,https://play.chess24.com/play/dd1c640dd89d,False,True,False,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",W-P-d,0.392,0.561875,0.4976875
+B-P-e,black,Pawn,e5,white wins,https://lichess.org/FXsStJfd,True,True,True,Elizabeth Harmon (white) vs Vasily Borgov (black),,0.392,0.561875,0.4976875
+B-P-e,black,Pawn,,white wins,Bled SLO,False,True,False,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),W-P-d,0.392,0.561875,0.4976875
+B-P-e,black,Pawn,d4,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,True,True,True,Deep Blue (white) vs Garry Kasparov (black),,0.392,0.561875,0.4976875
+B-P-e,black,Pawn,,white wins,Wijk aan Zee NED,False,True,False,Veselin Topalov (white) vs Vladimir Kramnik (black),W-P-b,0.392,0.561875,0.4976875
+B-P-e,black,Pawn,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),W-N-g,0.392,0.561875,0.4976875
+B-P-e,black,Pawn,,black wins,"New York, NY USA",False,False,False,Donald Byrne (white) vs Robert James Fischer (black),W-B-c,0.392,0.561875,0.4976875
+B-P-e,black,Pawn,,black wins,Hastings ENG,False,False,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),W-K,0.392,0.561875,0.4976875
+B-P-g,black,Pawn,,white wins,https://play.chess24.com/play/dd1c640dd89d,False,True,False,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",W-P-f,0.6682,0.561875,0.4976875
+B-P-g,black,Pawn,,white wins,https://lichess.org/FXsStJfd,False,True,False,Elizabeth Harmon (white) vs Vasily Borgov (black),W-R-h,0.6682,0.561875,0.4976875
+B-P-g,black,Pawn,g7,white wins,Bled SLO,True,True,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.6682,0.561875,0.4976875
+B-P-g,black,Pawn,f3,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,True,True,True,Deep Blue (white) vs Garry Kasparov (black),,0.6682,0.561875,0.4976875
+B-P-g,black,Pawn,,white wins,Wijk aan Zee NED,False,True,False,Veselin Topalov (white) vs Vladimir Kramnik (black),W-N-b,0.6682,0.561875,0.4976875
+B-P-g,black,Pawn,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),W-B-f,0.6682,0.561875,0.4976875
+B-P-g,black,Pawn,g6,black wins,"New York, NY USA",True,False,True,Donald Byrne (white) vs Robert James Fischer (black),,0.6682,0.561875,0.4976875
+B-P-g,black,Pawn,f6,black wins,Hastings ENG,True,False,True,Efim Bogoljubov (white) vs Alexander Alekhine (black),,0.6682,0.561875,0.4976875
+W-K,white,King,g1,white wins,https://play.chess24.com/play/dd1c640dd89d,True,False,False,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.4828,0.51505,0.4976875
+W-K,white,King,d2,white wins,https://lichess.org/FXsStJfd,True,False,False,Elizabeth Harmon (white) vs Vasily Borgov (black),,0.4828,0.51505,0.4976875
+W-K,white,King,g1,white wins,Bled SLO,True,False,False,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.4828,0.51505,0.4976875
+W-K,white,King,h2,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,True,False,False,Deep Blue (white) vs Garry Kasparov (black),,0.4828,0.51505,0.4976875
+W-K,white,King,g1,white wins,Wijk aan Zee NED,True,False,False,Veselin Topalov (white) vs Vladimir Kramnik (black),,0.4828,0.51505,0.4976875
+W-K,white,King,g5,draw,Portoroz SVN,True,True,True,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),,0.4828,0.51505,0.4976875
+W-K,white,King,c1,black wins,"New York, NY USA",True,True,True,Donald Byrne (white) vs Robert James Fischer (black),,0.4828,0.51505,0.4976875
+W-K,white,King,e4,black wins,Hastings ENG,True,True,True,Efim Bogoljubov (white) vs Alexander Alekhine (black),,0.4828,0.51505,0.4976875
+B-P-d,black,Pawn,d6,white wins,https://play.chess24.com/play/dd1c640dd89d,True,True,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.3534,0.561875,0.4976875
+B-P-d,black,Pawn,,white wins,https://lichess.org/FXsStJfd,False,True,False,Elizabeth Harmon (white) vs Vasily Borgov (black),W-B-f,0.3534,0.561875,0.4976875
+B-P-d,black,Pawn,d4,white wins,Bled SLO,True,True,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.3534,0.561875,0.4976875
+B-P-d,black,Pawn,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,True,False,Deep Blue (white) vs Garry Kasparov (black),W-P-e,0.3534,0.561875,0.4976875
+B-P-d,black,Pawn,,white wins,Wijk aan Zee NED,False,True,False,Veselin Topalov (white) vs Vladimir Kramnik (black),W-P-b,0.3534,0.561875,0.4976875
+B-P-d,black,Pawn,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),W-R-a,0.3534,0.561875,0.4976875
+B-P-d,black,Pawn,,black wins,"New York, NY USA",False,False,False,Donald Byrne (white) vs Robert James Fischer (black),W-Q,0.3534,0.561875,0.4976875
+B-P-d,black,Pawn,,black wins,Hastings ENG,False,False,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),W-P-b,0.3534,0.561875,0.4976875
+B-K,black,King,g8,white wins,https://play.chess24.com/play/dd1c640dd89d,True,True,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.5473,0.51505,0.4976875
+B-K,black,King,g7,white wins,https://lichess.org/FXsStJfd,True,True,True,Elizabeth Harmon (white) vs Vasily Borgov (black),,0.5473,0.51505,0.4976875
+B-K,black,King,c4,white wins,Bled SLO,True,True,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.5473,0.51505,0.4976875
+B-K,black,King,g6,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,True,True,True,Deep Blue (white) vs Garry Kasparov (black),,0.5473,0.51505,0.4976875
+B-K,black,King,a8,white wins,Wijk aan Zee NED,True,True,True,Veselin Topalov (white) vs Vladimir Kramnik (black),,0.5473,0.51505,0.4976875
+B-K,black,King,c2,draw,Portoroz SVN,True,True,True,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),,0.5473,0.51505,0.4976875
+B-K,black,King,g7,black wins,"New York, NY USA",True,False,False,Donald Byrne (white) vs Robert James Fischer (black),,0.5473,0.51505,0.4976875
+B-K,black,King,e6,black wins,Hastings ENG,True,False,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),,0.5473,0.51505,0.4976875
+W-R-a,white,Rook,a1,white wins,https://play.chess24.com/play/dd1c640dd89d,True,False,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.5994,0.58675,0.4976875
+W-R-a,white,Rook,,white wins,https://lichess.org/FXsStJfd,False,False,False,Elizabeth Harmon (white) vs Vasily Borgov (black),B-R-h,0.5994,0.58675,0.4976875
+W-R-a,white,Rook,a1,white wins,Bled SLO,True,False,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.5994,0.58675,0.4976875
+W-R-a,white,Rook,h7,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,True,False,True,Deep Blue (white) vs Garry Kasparov (black),,0.5994,0.58675,0.4976875
+W-R-a,white,Rook,b2,white wins,Wijk aan Zee NED,True,False,True,Veselin Topalov (white) vs Vladimir Kramnik (black),,0.5994,0.58675,0.4976875
+W-R-a,white,Rook,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),B-K,0.5994,0.58675,0.4976875
+W-R-a,white,Rook,,black wins,"New York, NY USA",False,True,False,Donald Byrne (white) vs Robert James Fischer (black),B-N-g,0.5994,0.58675,0.4976875
+W-R-a,white,Rook,,black wins,Hastings ENG,False,True,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),B-P-b,0.5994,0.58675,0.4976875
+W-Q,white,Queen,d1,white wins,https://play.chess24.com/play/dd1c640dd89d,True,False,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.4925,0.4861,0.4976875
+W-Q,white,Queen,,white wins,https://lichess.org/FXsStJfd,False,False,False,Elizabeth Harmon (white) vs Vasily Borgov (black),B-P-g,0.4925,0.4861,0.4976875
+W-Q,white,Queen,f3,white wins,Bled SLO,True,False,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.4925,0.4861,0.4976875
+W-Q,white,Queen,d5,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,True,False,True,Deep Blue (white) vs Garry Kasparov (black),,0.4925,0.4861,0.4976875
+W-Q,white,Queen,,white wins,Wijk aan Zee NED,False,False,False,Veselin Topalov (white) vs Vladimir Kramnik (black),B-R-a,0.4925,0.4861,0.4976875
+W-Q,white,Queen,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),B-K,0.4925,0.4861,0.4976875
+W-Q,white,Queen,b8,black wins,"New York, NY USA",True,True,True,Donald Byrne (white) vs Robert James Fischer (black),,0.4925,0.4861,0.4976875
+W-Q,white,Queen,,black wins,Hastings ENG,False,True,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),B-P-b,0.4925,0.4861,0.4976875
+W-P-a,white,Pawn,a2,white wins,https://play.chess24.com/play/dd1c640dd89d,True,False,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.7108,0.561875,0.4976875
+W-P-a,white,Pawn,,white wins,https://lichess.org/FXsStJfd,False,False,False,Elizabeth Harmon (white) vs Vasily Borgov (black),B-P-a,0.7108,0.561875,0.4976875
+W-P-a,white,Pawn,a2,white wins,Bled SLO,True,False,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.7108,0.561875,0.4976875
+W-P-a,white,Pawn,a3,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,True,False,True,Deep Blue (white) vs Garry Kasparov (black),,0.7108,0.561875,0.4976875
+W-P-a,white,Pawn,a4,white wins,Wijk aan Zee NED,True,False,True,Veselin Topalov (white) vs Vladimir Kramnik (black),,0.7108,0.561875,0.4976875
+W-P-a,white,Pawn,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),B-P-d,0.7108,0.561875,0.4976875
+W-P-a,white,Pawn,,black wins,"New York, NY USA",False,True,False,Donald Byrne (white) vs Robert James Fischer (black),B-R-a,0.7108,0.561875,0.4976875
+W-P-a,white,Pawn,,black wins,Hastings ENG,False,True,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),B-B-c,0.7108,0.561875,0.4976875
+W-P-b,white,Pawn,b2,white wins,https://play.chess24.com/play/dd1c640dd89d,True,False,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.6054,0.561875,0.4976875
+W-P-b,white,Pawn,b4,white wins,https://lichess.org/FXsStJfd,True,False,True,Elizabeth Harmon (white) vs Vasily Borgov (black),,0.6054,0.561875,0.4976875
+W-P-b,white,Pawn,b3,white wins,Bled SLO,True,False,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.6054,0.561875,0.4976875
+W-P-b,white,Pawn,b3,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,True,False,True,Deep Blue (white) vs Garry Kasparov (black),,0.6054,0.561875,0.4976875
+W-P-b,white,Pawn,,white wins,Wijk aan Zee NED,False,False,False,Veselin Topalov (white) vs Vladimir Kramnik (black),B-N-b,0.6054,0.561875,0.4976875
+W-P-b,white,Pawn,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),B-P-a,0.6054,0.561875,0.4976875
+W-P-b,white,Pawn,,black wins,"New York, NY USA",False,True,False,Donald Byrne (white) vs Robert James Fischer (black),B-N-g,0.6054,0.561875,0.4976875
+W-P-b,white,Pawn,,black wins,Hastings ENG,False,True,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),B-P-b,0.6054,0.561875,0.4976875
+W-P-c,white,Pawn,c2,white wins,https://play.chess24.com/play/dd1c640dd89d,True,False,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.492,0.561875,0.4976875
+W-P-c,white,Pawn,,white wins,https://lichess.org/FXsStJfd,False,False,False,Elizabeth Harmon (white) vs Vasily Borgov (black),B-P-d,0.492,0.561875,0.4976875
+W-P-c,white,Pawn,c3,white wins,Bled SLO,True,False,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.492,0.561875,0.4976875
+W-P-c,white,Pawn,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,False,False,Deep Blue (white) vs Garry Kasparov (black),B-R-h,0.492,0.561875,0.4976875
+W-P-c,white,Pawn,,white wins,Wijk aan Zee NED,False,False,False,Veselin Topalov (white) vs Vladimir Kramnik (black),B-P-d,0.492,0.561875,0.4976875
+W-P-c,white,Pawn,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),B-P-b,0.492,0.561875,0.4976875
+W-P-c,white,Pawn,,black wins,"New York, NY USA",False,True,False,Donald Byrne (white) vs Robert James Fischer (black),B-P-d,0.492,0.561875,0.4976875
+W-P-c,white,Pawn,,black wins,Hastings ENG,False,True,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),B-P-d,0.492,0.561875,0.4976875
+B-P-a,black,Pawn,a7,white wins,https://play.chess24.com/play/dd1c640dd89d,True,True,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.711,0.561875,0.4976875
+B-P-a,black,Pawn,b5,white wins,https://lichess.org/FXsStJfd,True,True,True,Elizabeth Harmon (white) vs Vasily Borgov (black),,0.711,0.561875,0.4976875
+B-P-a,black,Pawn,a6,white wins,Bled SLO,True,True,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.711,0.561875,0.4976875
+B-P-a,black,Pawn,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,True,False,Deep Blue (white) vs Garry Kasparov (black),W-Q,0.711,0.561875,0.4976875
+B-P-a,black,Pawn,a6,white wins,Wijk aan Zee NED,True,True,True,Veselin Topalov (white) vs Vladimir Kramnik (black),,0.711,0.561875,0.4976875
+B-P-a,black,Pawn,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),W-P-a,0.711,0.561875,0.4976875
+B-P-a,black,Pawn,,black wins,"New York, NY USA",False,False,False,Donald Byrne (white) vs Robert James Fischer (black),W-Q,0.711,0.561875,0.4976875
+B-P-a,black,Pawn,,black wins,Hastings ENG,False,False,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),W-R-a,0.711,0.561875,0.4976875
+B-P-b,black,Pawn,b7,white wins,https://play.chess24.com/play/dd1c640dd89d,True,True,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.6072,0.561875,0.4976875
+B-P-b,black,Pawn,,white wins,https://lichess.org/FXsStJfd,False,True,False,Elizabeth Harmon (white) vs Vasily Borgov (black),W-P-a,0.6072,0.561875,0.4976875
+B-P-b,black,Pawn,b5,white wins,Bled SLO,True,True,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.6072,0.561875,0.4976875
+B-P-b,black,Pawn,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,True,False,Deep Blue (white) vs Garry Kasparov (black),W-N-b,0.6072,0.561875,0.4976875
+B-P-b,black,Pawn,,white wins,Wijk aan Zee NED,False,True,False,Veselin Topalov (white) vs Vladimir Kramnik (black),W-R-a,0.6072,0.561875,0.4976875
+B-P-b,black,Pawn,,draw,Portoroz SVN,False,True,False,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),W-P-a,0.6072,0.561875,0.4976875
+B-P-b,black,Pawn,b5,black wins,"New York, NY USA",True,False,True,Donald Byrne (white) vs Robert James Fischer (black),,0.6072,0.561875,0.4976875
+B-P-b,black,Pawn,,black wins,Hastings ENG,False,False,False,Efim Bogoljubov (white) vs Alexander Alekhine (black),W-R-h,0.6072,0.561875,0.4976875
+B-P-c,black,Pawn,c7,white wins,https://play.chess24.com/play/dd1c640dd89d,True,True,True,"Carlsen, Magnus (white) vs Nepomniachtchi, Ian (black)",,0.4761,0.561875,0.4976875
+B-P-c,black,Pawn,d5,white wins,https://lichess.org/FXsStJfd,True,True,True,Elizabeth Harmon (white) vs Vasily Borgov (black),,0.4761,0.561875,0.4976875
+B-P-c,black,Pawn,c7,white wins,Bled SLO,True,True,True,Judit Polgar (white) vs Shakhriyar Mamedyarov (black),,0.4761,0.561875,0.4976875
+B-P-c,black,Pawn,,white wins,https://lichess.org/study/mMd71FFj/FAyvLmLJ,False,True,False,Deep Blue (white) vs Garry Kasparov (black),W-P-c,0.4761,0.561875,0.4976875
+B-P-c,black,Pawn,,white wins,Wijk aan Zee NED,False,True,False,Veselin Topalov (white) vs Vladimir Kramnik (black),W-R-a,0.4761,0.561875,0.4976875
+B-P-c,black,Pawn,c3,draw,Portoroz SVN,True,True,True,Tigran Vartanovich Petrosian (white) vs Robert James Fischer (black),,0.4761,0.561875,0.4976875
+B-P-c,black,Pawn,c6,black wins,"New York, NY USA",True,False,True,Donald Byrne (white) vs Robert James Fischer (black),,0.4761,0.561875,0.4976875
+B-P-c,black,Pawn,d5,black wins,Hastings ENG,True,False,True,Efim Bogoljubov (white) vs Alexander Alekhine (black),,0.4761,0.561875,0.4976875
