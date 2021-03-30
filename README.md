@@ -33,8 +33,25 @@ Useful links:
 
 Sample Chess matches to include
 
-Garry Kasparov vs Magnus Carlsen: [https://lichess.org/study/dkBrvFEK](https://lichess.org/study/dkBrvFEK)
-Garry Kasparov VS Deep Blue: [https://lichess.org/study/mMd71FFj](https://lichess.org/study/mMd71FFj)
-Judit Polgar vs Garry Kasparov, Moscow 2002: [https://lichess.org/study/IKi04lMM/bkjHPMaE](https://lichess.org/study/IKi04lMM/bkjHPMaE)
-Carlsen, Magnus vs 	Nepomniachtchi, Ian: [https://lichess.org/broadcast/chess24-legends-of-chess-finals-day-2/kRHLCPAl](https://lichess.org/broadcast/chess24-legends-of-chess-finals-day-2/kRHLCPAl)
-All beth harmon: [https://lichess.org/study/dffUtue4/cOBFJKQI](https://lichess.org/study/dffUtue4/cOBFJKQI)
+- Garry Kasparov vs Magnus Carlsen: [https://lichess.org/study/dkBrvFEK](https://lichess.org/study/dkBrvFEK)
+- Garry Kasparov VS Deep Blue: [https://lichess.org/study/mMd71FFj](https://lichess.org/study/mMd71FFj)
+- Judit Polgar vs Garry Kasparov, Moscow 2002: [https://lichess.org/study/IKi04lMM/bkjHPMaE](https://lichess.org/study/IKi04lMM/bkjHPMaE)
+- Carlsen, Magnus vs 	Nepomniachtchi, Ian: [https://lichess.org/broadcast/chess24-legends-of-chess-finals-day-2/kRHLCPAl](https://lichess.org/broadcast/chess24-legends-of-chess-finals-day-2/kRHLCPAl)
+- All beth harmon: [https://lichess.org/study/dffUtue4/cOBFJKQI](https://lichess.org/study/dffUtue4/cOBFJKQI)
+
+
+### 📈 See the Dashboard 
+
+URL: [https://public.tableau.com/profile/wjsutton#!/vizhome/ChessLifeExpectancy/Title](https://public.tableau.com/profile/wjsutton#!/vizhome/ChessLifeExpectancy/Title)
+
+<div style="width: 300px; height:300px; overflow: hidden;margin: 0 10px 0 0">
+<a href="https://public.tableau.com/profile/wjsutton#!/vizhome/ChessLifeExpectancy/Title">
+<img src='https://raw.githubusercontent.com/wjsutton/life_expectancy_in_chess/main/dashboard_images/Title.png' width="80%">
+  <img src='https://raw.githubusercontent.com/wjsutton/life_expectancy_in_chess/main/dashboard_images/Enrolment.png' width="49%">
+  <img src='https://raw.githubusercontent.com/wjsutton/life_expectancy_in_chess/main/dashboard_images/Selection.png' width="49%">
+  <img src='https://raw.githubusercontent.com/wjsutton/life_expectancy_in_chess/main/dashboard_images/Result.png' width="49%">
+  <img src='https://raw.githubusercontent.com/wjsutton/life_expectancy_in_chess/main/dashboard_images/Barracks.png' width="49%">
+</a>
+</div>
+
+
