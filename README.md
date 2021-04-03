@@ -6,8 +6,6 @@
 
 Understanding which pieces in chess are more likely to survive a game of chess than others.
 
-:construction: Repo Under Construction :construction: 
-
 [Twitter][Twitter] :speech_balloon:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[LinkedIn][LinkedIn] :necktie:&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[GitHub :octocat:][GitHub]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Website][Website] :link:
 
 <!--/div-->
