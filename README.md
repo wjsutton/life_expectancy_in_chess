@@ -2,7 +2,7 @@
   Life Expectancy in Chess ♟
 </h1>
 
-[![Status](https://www.repostatus.org/badges/latest/wip.svg)]() [![GitHub Issues](https://img.shields.io/github/issues/wjsutton/life_expectancy_in_chess.svg)](https://github.com/wjsutton/life_expectancy_in_chess/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/wjsutton/life_expectancy_in_chess.svg)](https://github.com/wjsutton/life_expectancy_in_chess/pulls) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+[![Status](https://img.shields.io/badge/status-active-success.svg)]() [![GitHub Issues](https://img.shields.io/github/issues/wjsutton/life_expectancy_in_chess.svg)](https://github.com/wjsutton/life_expectancy_in_chess/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/wjsutton/life_expectancy_in_chess.svg)](https://github.com/wjsutton/life_expectancy_in_chess/pulls) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 Understanding which pieces in chess are more likely to survive a game of chess than others.
 
@@ -23,15 +23,11 @@ Quick Link
 
 ### :a: About
 
-This a work in progress repo to calculate a piece likelihood to survive a game of chess.
+This repo is to calculate a chess piece's likelihood to survive a game of chess.
 
-Useful links:
-- Data [https://database.lichess.org/#standard_games](https://database.lichess.org/#standard_games)
-- Understanding SAN notation [https://blog.chesshouse.com/how-to-read-and-write-algebraic-chess-notation/](https://blog.chesshouse.com/how-to-read-and-write-algebraic-chess-notation/)
-- C# repo on surviving chess pieces [ojb500/survivingpieces](https://github.com/ojb500/survivingpieces)
-- Converting SAN notation to Long Algebraic notations [https://chess.stackexchange.com/questions/2895/how-to-convert-pgn-moves-to-long-algebraic-notation-in-python](https://chess.stackexchange.com/questions/2895/how-to-convert-pgn-moves-to-long-algebraic-notation-in-python)
+To calculate survival rates we take a 10K game sample from [https://database.lichess.org/#standard_games](https://database.lichess.org/#standard_games). We use the script [chess_survival_statistics.py](https://github.com/wjsutton/life_expectancy_in_chess/blob/main/chess_survival_statistics.py) to iterate through 10,000 games and write the data locally, [calculate_survival.py](https://github.com/wjsutton/life_expectancy_in_chess/blob/main/calculate_survival.py) will then read the file and calculate the survival rates for each chess piece, and produce the dataset [chess_piece_survival_rates.csv](https://github.com/wjsutton/life_expectancy_in_chess/blob/main/data/chess_piece_survival_rates.csv)
 
-Sample Chess matches to include
+To add interest and a storytelling aspect to the dashboard the user can choose to a famous chess match to play, details of the famous matches are as follows:
 
 - Garry Kasparov vs Magnus Carlsen: [https://lichess.org/study/dkBrvFEK](https://lichess.org/study/dkBrvFEK)
 - Garry Kasparov VS Deep Blue: [https://lichess.org/study/mMd71FFj](https://lichess.org/study/mMd71FFj)
@@ -39,6 +35,12 @@ Sample Chess matches to include
 - Carlsen, Magnus vs 	Nepomniachtchi, Ian: [https://lichess.org/broadcast/chess24-legends-of-chess-finals-day-2/kRHLCPAl](https://lichess.org/broadcast/chess24-legends-of-chess-finals-day-2/kRHLCPAl)
 - All beth harmon: [https://lichess.org/study/dffUtue4/cOBFJKQI](https://lichess.org/study/dffUtue4/cOBFJKQI)
 
+The script [queens_gambit_final.py](https://github.com/wjsutton/life_expectancy_in_chess/blob/main/queens_gambit_final.py) will process the famous matches to create the datasets [match_survival.csv](https://github.com/wjsutton/life_expectancy_in_chess/blob/main/data/match_survival.csv) & [match_timeline.csv](https://github.com/wjsutton/life_expectancy_in_chess/blob/main/data/match_timeline.csv)
+
+Useful links:
+- Understanding SAN notation [https://blog.chesshouse.com/how-to-read-and-write-algebraic-chess-notation/](https://blog.chesshouse.com/how-to-read-and-write-algebraic-chess-notation/)
+- C# repo on surviving chess pieces [ojb500/survivingpieces](https://github.com/ojb500/survivingpieces)
+- Converting SAN notation to Long Algebraic notations [https://chess.stackexchange.com/questions/2895/how-to-convert-pgn-moves-to-long-algebraic-notation-in-python](https://chess.stackexchange.com/questions/2895/how-to-convert-pgn-moves-to-long-algebraic-notation-in-python)
 
 ### 📈 See the Dashboard 
 
