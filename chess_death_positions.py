@@ -7,7 +7,7 @@ import glob
 import datetime
 
 with open('data/standard_matches/lichess_db_standard_rated_2013-01.pgn') as pgn:
-    for file in range(10000):
+    for file in range(100):
 
         start_positions = pd.read_csv('data\\start_positions.csv')
 
@@ -50,13 +50,6 @@ with open('data/standard_matches/lichess_db_standard_rated_2013-01.pgn') as pgn:
 
         pat = ['white','black']
         df = df.assign(player=[*islice(cycle(pat), len(df))])
-
-        #df['LAN'] = df['LAN'].str.replace('-Q','=Q')
-
-        if site == 'https://lichess.org/vb3w3rmn':
-            print(df['LAN'])
-            #example = df['LAN']
-            #example.to_csv('data\\test_lan_output.csv', index=False)
             
         df['LAN'] = df['LAN'].str.replace('O-O-O','O-OO',regex=False)
         df[['from_and_piece', 'to_and_result']] = df['LAN'].str.split('-|x',expand=True)
@@ -194,9 +187,6 @@ with open('data/standard_matches/lichess_db_standard_rated_2013-01.pgn') as pgn:
             df = other_moves.append(replacement_moves)
             df = df.sort_values(by=['index'])
 
-
-
-
         for i in df['index']:
             current_move = df.loc[df['index'] == i]
 
@@ -277,4 +267,106 @@ death_df = death_df[death_df['killed'].notnull()]
 death_df = death_df.loc[death_df['killed'] != '']
 death_df.columns = ['Site','BlackElo','WhiteElo','Opening','death_position','killed_piece_id','killed_by_piece_id']
 
+death_df['BlackElo'] = death_df['BlackElo'].str.replace(r'\?*','-1',regex=True)
+death_df['WhiteElo'] = death_df['WhiteElo'].str.replace(r'\?*','-1',regex=True)
+death_df['BlackElo'] = death_df['BlackElo'].astype(int)
+death_df['WhiteElo'] = death_df['WhiteElo'].astype(int)
+
+death_df['BlackElo_broad'] =  np.select(
+            [
+                death_df['BlackElo'] == -1,
+                death_df['BlackElo'] < 1000,
+                death_df['BlackElo'] < 1100,
+                death_df['BlackElo'] < 1200,
+                death_df['BlackElo'] < 1300,
+                death_df['BlackElo'] < 1400,
+                death_df['BlackElo'] < 1500,
+                death_df['BlackElo'] < 1600,
+                death_df['BlackElo'] < 1700,
+                death_df['BlackElo'] < 1800,
+                death_df['BlackElo'] < 1900,
+                death_df['BlackElo'] < 2000,
+                death_df['BlackElo'] >= 2000
+                
+            ], 
+            [
+                'Unknown',
+                '0-1000',
+                '1000-1099',
+                '1100-1199',
+                '1200-1299',
+                '1300-1399',
+                '1400-1499',
+                '1500-1599',
+                '1600-1699',
+                '1700-1799',
+                '1800-1899',
+                '1900-1999',
+                '2000+'
+            ], 
+            default='Unknown'
+        )
+
+death_df['WhiteElo_broad'] =  np.select(
+            [
+                death_df['WhiteElo'] == -1,
+                death_df['WhiteElo'] < 1000,
+                death_df['WhiteElo'] < 1100,
+                death_df['WhiteElo'] < 1200,
+                death_df['WhiteElo'] < 1300,
+                death_df['WhiteElo'] < 1400,
+                death_df['WhiteElo'] < 1500,
+                death_df['WhiteElo'] < 1600,
+                death_df['WhiteElo'] < 1700,
+                death_df['WhiteElo'] < 1800,
+                death_df['WhiteElo'] < 1900,
+                death_df['WhiteElo'] < 2000,
+                death_df['WhiteElo'] >= 2000
+                
+            ], 
+            [
+                'Unknown',
+                '0-1000',
+                '1000-1099',
+                '1100-1199',
+                '1200-1299',
+                '1300-1399',
+                '1400-1499',
+                '1500-1599',
+                '1600-1699',
+                '1700-1799',
+                '1800-1899',
+                '1900-1999',
+                '2000+'
+            ], 
+            default='Unknown'
+        )
+
+death_df['Opening_broad'] =  np.select(
+            [
+                death_df['Opening'].str.contains('Sicilian Defense'),
+                death_df['Opening'].str.contains('French Defense'),
+                death_df['Opening'].str.contains("Queen's Pawn Game"),
+                death_df['Opening'].str.contains("Scandinavian Defense"),
+                death_df['Opening'].str.contains("King's Pawn Game"),
+                death_df['Opening'].str.contains("Queen's Gambit"),
+                death_df['Opening'].str.contains("King's Gambit")
+                
+            ], 
+            [
+                'Sicilian Defense',
+                'French Defense',
+                "Queen's Pawn Game",
+                "Scandinavian Defense",
+                "King's Pawn Game",
+                "Queen's Gambit",
+                "King's Gambit"
+            ], 
+            default='Other'
+        )
+
+output_df = death_df[['BlackElo_broad','WhiteElo_broad','Opening_broad','death_position','killed_piece_id','killed_by_piece_id']]
+output_df = output_df.groupby(['BlackElo_broad','WhiteElo_broad','Opening_broad','death_position','killed_piece_id','killed_by_piece_id']).size().reset_index(name='counts')
+
 death_df.to_csv('data\\piece_death_positions.csv', index=False)
+output_df.to_csv('data\\piece_death_positions_statistics.csv', index=False)

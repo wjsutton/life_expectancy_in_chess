@@ -1,6 +1,136 @@
-Site,BlackElo,WhiteElo,Opening,death_position,killed_piece_id,killed_by_piece_id
-https://lichess.org/j1dkb5dw,1403,1639,French Defense: Normal Variation,h6,B-N-g,W-B-c
-https://lichess.org/j1dkb5dw,1403,1639,French Defense: Normal Variation,h6,W-B-c,B-P-g
-https://lichess.org/j1dkb5dw,1403,1639,French Defense: Normal Variation,h5,B-P-g,W-B-f
-https://lichess.org/j1dkb5dw,1403,1639,French Defense: Normal Variation,h4,W-N-g,B-Q
-https://lichess.org/j1dkb5dw,1403,1639,French Defense: Normal Variation,f7,B-P-f,W-Q
+Site,BlackElo,WhiteElo,Opening,death_position,killed_piece_id,killed_by_piece_id,BlackElo_broad,WhiteElo_broad,Opening_broad
+https://lichess.org/j1dkb5dw,1403,1639,French Defense: Normal Variation,h6,B-N-g,W-B-c,1400-1499,1600-1699,French Defense
+https://lichess.org/j1dkb5dw,1403,1639,French Defense: Normal Variation,h6,W-B-c,B-P-g,1400-1499,1600-1699,French Defense
+https://lichess.org/j1dkb5dw,1403,1639,French Defense: Normal Variation,h5,B-P-g,W-B-f,1400-1499,1600-1699,French Defense
+https://lichess.org/j1dkb5dw,1403,1639,French Defense: Normal Variation,h4,W-N-g,B-Q,1400-1499,1600-1699,French Defense
+https://lichess.org/j1dkb5dw,1403,1639,French Defense: Normal Variation,f7,B-P-f,W-Q,1400-1499,1600-1699,French Defense
+https://lichess.org/a9tcp02g,1919,1654,"Queen's Pawn Game: Colle System, Anti-Colle",g6,B-B-c,W-N-g,1900-1999,1600-1699,Queen's Pawn Game
+https://lichess.org/a9tcp02g,1919,1654,"Queen's Pawn Game: Colle System, Anti-Colle",g6,W-N-g,B-P-h,1900-1999,1600-1699,Queen's Pawn Game
+https://lichess.org/a9tcp02g,1919,1654,"Queen's Pawn Game: Colle System, Anti-Colle",e4,W-P-e,B-P-d,1900-1999,1600-1699,Queen's Pawn Game
+https://lichess.org/a9tcp02g,1919,1654,"Queen's Pawn Game: Colle System, Anti-Colle",e4,B-P-d,W-N-b,1900-1999,1600-1699,Queen's Pawn Game
+https://lichess.org/a9tcp02g,1919,1654,"Queen's Pawn Game: Colle System, Anti-Colle",h2,W-P-h,B-R-h,1900-1999,1600-1699,Queen's Pawn Game
+https://lichess.org/a9tcp02g,1919,1654,"Queen's Pawn Game: Colle System, Anti-Colle",h1,W-R-h,B-R-h,1900-1999,1600-1699,Queen's Pawn Game
+https://lichess.org/a9tcp02g,1919,1654,"Queen's Pawn Game: Colle System, Anti-Colle",h1,B-R-h,W-Q,1900-1999,1600-1699,Queen's Pawn Game
+https://lichess.org/a9tcp02g,1919,1654,"Queen's Pawn Game: Colle System, Anti-Colle",d4,W-P-d,B-N-b,1900-1999,1600-1699,Queen's Pawn Game
+https://lichess.org/a9tcp02g,1919,1654,"Queen's Pawn Game: Colle System, Anti-Colle",g7,B-P-g,W-Q,1900-1999,1600-1699,Queen's Pawn Game
+https://lichess.org/a9tcp02g,1919,1654,"Queen's Pawn Game: Colle System, Anti-Colle",f6,B-N-g,W-B-c,1900-1999,1600-1699,Queen's Pawn Game
+https://lichess.org/a9tcp02g,1919,1654,"Queen's Pawn Game: Colle System, Anti-Colle",h8,B-Q,W-Q,1900-1999,1600-1699,Queen's Pawn Game
+https://lichess.org/a9tcp02g,1919,1654,"Queen's Pawn Game: Colle System, Anti-Colle",h8,W-Q,B-R-a,1900-1999,1600-1699,Queen's Pawn Game
+https://lichess.org/a9tcp02g,1919,1654,"Queen's Pawn Game: Colle System, Anti-Colle",h8,B-R-a,W-B-c,1900-1999,1600-1699,Queen's Pawn Game
+https://lichess.org/szom2tog,1747,1643,Four Knights Game: Italian Variation,f2,W-P-f,B-B-f,1700-1799,1600-1699,Other
+https://lichess.org/szom2tog,1747,1643,Four Knights Game: Italian Variation,f2,B-B-f,W-K,1700-1799,1600-1699,Other
+https://lichess.org/szom2tog,1747,1643,Four Knights Game: Italian Variation,d5,B-P-d,W-N-b,1700-1799,1600-1699,Other
+https://lichess.org/szom2tog,1747,1643,Four Knights Game: Italian Variation,c7,B-P-c,W-N-b,1700-1799,1600-1699,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,e4,W-P-e,B-P-d,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,e4,B-P-d,W-N-b,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,f6,B-N-g,W-N-b,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,f6,W-N-b,B-N-b,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,f4,W-B-c,B-N-b,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,f4,B-N-b,W-N-g,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,e6,B-P-e,W-B-f,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,e6,W-B-f,B-P-f,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,e6,B-P-f,W-N-g,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,e3,W-Q,B-Q,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,e3,B-Q,W-P-f,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,g6,B-B-c,W-N-g,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,g6,W-N-g,B-P-h,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,f1,W-R-h,B-R-a,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,f1,B-R-a,W-R-a,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,f8,B-R-h,W-R-a,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,f8,W-R-a,B-K,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,b2,W-P-b,B-B-f,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,g5,B-P-h,W-K,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,c3,W-P-c,B-B-f,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,d4,W-P-d,B-B-f,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,e5,W-P-f,B-B-f,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,a4,W-P-a,B-P-b,1900-1999,1800-1899,Other
+https://lichess.org/rklpc7mk,1973,1824,Caro-Kann Defense: Goldman Variation,a4,B-P-b,W-K,1900-1999,1800-1899,Other
+https://lichess.org/1xb3os63,1815,1765,French Defense: La Bourdonnais Variation,g4,W-P-g,B-N-g,1800-1899,1700-1799,French Defense
+https://lichess.org/1xb3os63,1815,1765,French Defense: La Bourdonnais Variation,d1,W-Q,B-N-g,1800-1899,1700-1799,French Defense
+https://lichess.org/1xb3os63,1815,1765,French Defense: La Bourdonnais Variation,d1,B-N-g,W-R-h,1800-1899,1700-1799,French Defense
+https://lichess.org/1xb3os63,1815,1765,French Defense: La Bourdonnais Variation,f7,B-P-f,W-N-g,1800-1899,1700-1799,French Defense
+https://lichess.org/1xb3os63,1815,1765,French Defense: La Bourdonnais Variation,f7,W-N-g,B-K,1800-1899,1700-1799,French Defense
+https://lichess.org/1xb3os63,1815,1765,French Defense: La Bourdonnais Variation,e6,B-P-e,W-B-f,1800-1899,1700-1799,French Defense
+https://lichess.org/1xb3os63,1815,1765,French Defense: La Bourdonnais Variation,e6,W-B-f,B-B-c,1800-1899,1700-1799,French Defense
+https://lichess.org/1xb3os63,1815,1765,French Defense: La Bourdonnais Variation,f1,W-R-h,B-N-b,1800-1899,1700-1799,French Defense
+https://lichess.org/1xb3os63,1815,1765,French Defense: La Bourdonnais Variation,f1,B-N-b,W-K,1800-1899,1700-1799,French Defense
+https://lichess.org/1xb3os63,1815,1765,French Defense: La Bourdonnais Variation,h3,W-P-h,B-B-c,1800-1899,1700-1799,French Defense
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,h6,B-N-g,W-B-c,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,h6,W-B-c,B-P-g,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,c4,W-B-f,B-N-b,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,c4,B-N-b,W-P-d,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,c5,B-Q,W-Q,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,b5,B-P-b,W-Q,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,e4,W-P-e,B-B-c,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,c3,W-P-c,B-B-f,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,d2,W-N-b,B-B-f,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,g5,B-B-f,W-N-g,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,g5,W-N-g,B-P-g,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,b5,W-P-b,B-B-c,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,b5,B-B-c,W-P-d,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,b5,W-P-d,B-R-a,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,a7,B-P-a,W-Q,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,g8,B-R-h,W-Q,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,e5,B-P-e,W-Q,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,d5,B-P-d,W-R-a,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,d5,W-R-a,B-R-a,1400-1499,1400-1499,Other
+https://lichess.org/6x5nq6qd,1487,1477,Owen Defense,d5,B-R-a,W-Q,1400-1499,1400-1499,Other
+https://lichess.org/fl7asfa0,1500,1541,"Italian Game: Classical Variation, Giuoco Pianissimo",b3,W-B-f,B-N-b,1500-1599,1500-1599,Other
+https://lichess.org/fl7asfa0,1500,1541,"Italian Game: Classical Variation, Giuoco Pianissimo",b3,B-N-b,W-Q,1500-1599,1500-1599,Other
+https://lichess.org/fl7asfa0,1500,1541,"Italian Game: Classical Variation, Giuoco Pianissimo",b7,B-P-b,W-Q,1500-1599,1500-1599,Other
+https://lichess.org/fl7asfa0,1500,1541,"Italian Game: Classical Variation, Giuoco Pianissimo",b2,W-P-b,B-R-a,1500-1599,1500-1599,Other
+https://lichess.org/fl7asfa0,1500,1541,"Italian Game: Classical Variation, Giuoco Pianissimo",d2,W-N-b,B-R-a,1500-1599,1500-1599,Other
+https://lichess.org/fl7asfa0,1500,1541,"Italian Game: Classical Variation, Giuoco Pianissimo",d2,B-R-a,W-N-g,1500-1599,1500-1599,Other
+https://lichess.org/fl7asfa0,1500,1541,"Italian Game: Classical Variation, Giuoco Pianissimo",h3,W-P-h,B-B-c,1500-1599,1500-1599,Other
+https://lichess.org/fl7asfa0,1500,1541,"Italian Game: Classical Variation, Giuoco Pianissimo",g5,B-P-g,W-N-g,1500-1599,1500-1599,Other
+https://lichess.org/7b44wxzu,1752,1765,English Opening: The Whale,f3,W-N-g,B-B-c,1700-1799,1700-1799,Other
+https://lichess.org/7b44wxzu,1752,1765,English Opening: The Whale,f3,B-B-c,W-Q,1700-1799,1700-1799,Other
+https://lichess.org/7b44wxzu,1752,1765,English Opening: The Whale,a7,B-B-f,W-B-c,1700-1799,1700-1799,Other
+https://lichess.org/7b44wxzu,1752,1765,English Opening: The Whale,a7,W-B-c,B-R-a,1700-1799,1700-1799,Other
+https://lichess.org/7b44wxzu,1752,1765,English Opening: The Whale,d5,B-P-d,W-P-e,1700-1799,1700-1799,Other
+https://lichess.org/7b44wxzu,1752,1765,English Opening: The Whale,d5,W-P-e,B-N-b,1700-1799,1700-1799,Other
+https://lichess.org/7b44wxzu,1752,1765,English Opening: The Whale,e5,B-P-e,W-Q,1700-1799,1700-1799,Other
+https://lichess.org/7b44wxzu,1752,1765,English Opening: The Whale,h8,B-R-h,W-Q,1700-1799,1700-1799,Other
+https://lichess.org/7b44wxzu,1752,1765,English Opening: The Whale,h5,B-P-h,W-B-f,1700-1799,1700-1799,Other
+https://lichess.org/7b44wxzu,1752,1765,English Opening: The Whale,e7,B-N-b,W-R-a,1700-1799,1700-1799,Other
+https://lichess.org/7b44wxzu,1752,1765,English Opening: The Whale,e7,W-R-a,B-K,1700-1799,1700-1799,Other
+https://lichess.org/7rzcutsf,1169,1445,Old Benoni Defense,h6,B-B-f,W-B-c,1100-1199,1400-1499,Other
+https://lichess.org/7rzcutsf,1169,1445,Old Benoni Defense,h6,W-B-c,B-N-g,1100-1199,1400-1499,Other
+https://lichess.org/7rzcutsf,1169,1445,Old Benoni Defense,e6,B-P-e,W-P-d,1100-1199,1400-1499,Other
+https://lichess.org/7rzcutsf,1169,1445,Old Benoni Defense,e6,W-P-d,B-N-g,1100-1199,1400-1499,Other
+https://lichess.org/7rzcutsf,1169,1445,Old Benoni Defense,e6,B-N-g,W-N-g,1100-1199,1400-1499,Other
+https://lichess.org/7rzcutsf,1169,1445,Old Benoni Defense,e6,W-N-g,B-B-c,1100-1199,1400-1499,Other
+https://lichess.org/7rzcutsf,1169,1445,Old Benoni Defense,h3,W-P-h,B-B-c,1100-1199,1400-1499,Other
+https://lichess.org/7rzcutsf,1169,1445,Old Benoni Defense,h3,B-B-c,W-P-g,1100-1199,1400-1499,Other
+https://lichess.org/7rzcutsf,1169,1445,Old Benoni Defense,h3,W-P-g,B-Q,1100-1199,1400-1499,Other
+https://lichess.org/7rzcutsf,1169,1445,Old Benoni Defense,h3,B-P-h,W-R-h,1100-1199,1400-1499,Other
+https://lichess.org/7rzcutsf,1169,1445,Old Benoni Defense,h3,W-R-h,B-Q,1100-1199,1400-1499,Other
+https://lichess.org/7rzcutsf,1169,1445,Old Benoni Defense,h3,B-Q,W-B-f,1100-1199,1400-1499,Other
+https://lichess.org/7rzcutsf,1169,1445,Old Benoni Defense,e7,W-N-b,B-R-a,1100-1199,1400-1499,Other
+https://lichess.org/7rzcutsf,1169,1445,Old Benoni Defense,d6,B-P-d,W-Q,1100-1199,1400-1499,Other
+https://lichess.org/7rzcutsf,1169,1445,Old Benoni Defense,c5,B-P-c,W-Q,1100-1199,1400-1499,Other
+https://lichess.org/7rzcutsf,1169,1445,Old Benoni Defense,c6,B-N-b,W-B-f,1100-1199,1400-1499,Other
+https://lichess.org/7rzcutsf,1169,1445,Old Benoni Defense,c7,B-R-a,W-Q,1100-1199,1400-1499,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,e5,B-P-e,W-P-d,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,d6,B-P-d,W-P-d,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,d6,W-P-d,B-B-f,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,f3,W-N-g,B-N-b,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,f3,B-N-b,W-B-f,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,h2,W-P-h,B-B-f,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,c3,W-N-b,B-B-f,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,c3,B-B-f,W-B-c,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,f6,B-N-g,W-B-c,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,f6,W-B-c,B-P-g,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,d8,B-R-a,W-R-h,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,d8,W-R-h,B-R-h,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,d8,B-R-h,W-R-a,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,d8,W-R-a,B-Q,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,c5,W-P-c,B-Q,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,f5,B-P-g,W-P-e,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,f5,W-P-e,B-B-c,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,h6,B-P-h,W-Q,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,e4,W-B-f,B-B-c,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,a3,W-P-a,B-Q,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,c6,B-P-c,W-Q,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,b4,W-P-b,B-Q,1400-1499,1500-1599,Other
+https://lichess.org/9opx3qh7,1428,1522,Englund Gambit Complex: Hartlaub-Charlick Gambit,a6,B-P-a,W-Q,1400-1499,1500-1599,Other
