@@ -54,4 +54,14 @@ URL: [https://public.tableau.com/profile/wjsutton#!/vizhome/ChessLifeExpectancy/
 </a>
 </div>
 
+### Bonus
+
+Inspired by this reddit post [Where_is_each_chess_piece_usually_captured](https://www.reddit.com/r/dataisbeautiful/comments/npscky/oc_where_is_each_chess_piece_usually_captured/) I've decided to make an interactive version with Tableau.
+
+The script [chess_death_positions.py](https://github.com/wjsutton/life_expectancy_in_chess/blob/main/chess_death_positions.py) runs through the match finding the square each piece was killed/captured, by who and the Elo of the two players.
+
+Data is output to:
+- [data/piece_death_positions.csv](https://github.com/wjsutton/life_expectancy_in_chess/blob/main/data/piece_death_positions.csv)
+- [data/piece_death_positions_statistics.csv](https://github.com/wjsutton/life_expectancy_in_chess/blob/main/data/piece_death_positions_statistics.csv)
+
 
