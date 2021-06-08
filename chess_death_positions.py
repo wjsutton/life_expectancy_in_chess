@@ -262,19 +262,41 @@ del rates['player']
 
 survival_df = pd.merge(survival_df,rates, on ='id',how='inner')
 
+print(match_df)
+
+checkmate_df = []
+# King checkmate position
+if pd.unique(match_df['result'].values) in ['white wins','black wins']:
+    king_df = np.where(pd.unique(match_df['result'])=='white wins',match_df.loc[(match_df['piece_id'] == 'B-K')],match_df.loc[(match_df['piece_id'] == 'W-K')])
+    king_df = king_df.iloc[-1]
+    killer_df = match_df.iloc[-1]
+    checkmate_df = king_df[['Site','BlackElo','WhiteElo','Opening','to']]
+    checkmate_df['killed'] = king_df['piece_id']
+    checkmate_df['piece_id'] = killer_df['piece_id']
+    checkmate_df = pd.DataFrame(checkmate_df)
+    checkmate_df = checkmate_df.T
+    print(len(checkmate_df))
+    print(checkmate_df)
+
 death_df = match_df[['Site','BlackElo','WhiteElo','Opening','to','killed','piece_id']]
 death_df = death_df[death_df['killed'].notnull()]
 death_df = death_df.loc[death_df['killed'] != '']
+if len(checkmate_df) > 0:
+    death_df = pd.concat([death_df,checkmate_df])
 death_df.columns = ['Site','BlackElo','WhiteElo','Opening','death_position','killed_piece_id','killed_by_piece_id']
 
-death_df['BlackElo'] = death_df['BlackElo'].str.replace(r'\?*','-1',regex=True)
-death_df['WhiteElo'] = death_df['WhiteElo'].str.replace(r'\?*','-1',regex=True)
+
+death_df['BlackElo'] = death_df['BlackElo'].str.replace('?','0',regex=False)
+death_df['WhiteElo'] = death_df['WhiteElo'].str.replace('?','0',regex=False)
+
+death_df['BlackElo'] = death_df['BlackElo'].str.replace('.*[-].*','0',regex=True)
+death_df['WhiteElo'] = death_df['WhiteElo'].str.replace('.*[-].*','0',regex=True)
 death_df['BlackElo'] = death_df['BlackElo'].astype(int)
 death_df['WhiteElo'] = death_df['WhiteElo'].astype(int)
 
 death_df['BlackElo_broad'] =  np.select(
             [
-                death_df['BlackElo'] == -1,
+                death_df['BlackElo'] == 0,
                 death_df['BlackElo'] < 1000,
                 death_df['BlackElo'] < 1100,
                 death_df['BlackElo'] < 1200,
@@ -309,7 +331,7 @@ death_df['BlackElo_broad'] =  np.select(
 
 death_df['WhiteElo_broad'] =  np.select(
             [
-                death_df['WhiteElo'] == -1,
+                death_df['WhiteElo'] == 0,
                 death_df['WhiteElo'] < 1000,
                 death_df['WhiteElo'] < 1100,
                 death_df['WhiteElo'] < 1200,
