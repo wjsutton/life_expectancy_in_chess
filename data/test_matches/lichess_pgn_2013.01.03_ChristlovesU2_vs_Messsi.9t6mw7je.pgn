@@ -1,0 +1,21 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/9t6mw7je"]
+[Date "2013.01.03"]
+[White "ChristlovesU2"]
+[Black "Messsi"]
+[Result "1-0"]
+[UTCDate "2013.01.03"]
+[UTCTime "14:51:48"]
+[WhiteElo "1624"]
+[BlackElo "1806"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-19"]
+[Variant "Standard"]
+[TimeControl "60+3"]
+[ECO "A41"]
+[Opening "Queen's Pawn Game"]
+[Termination "Time forfeit"]
+
+1. d4 d6 2. Nf3 g6 3. Bf4 Bg7 4. h3 Nf6 5. e3 O-O 6. Be2 e6 7. O-O Nbd7 8. c4 b6 9. Nc3 Bb7 10. Rc1 a6 11. b3 Rc8 12. d5 e5 13. Bh2 Re8 14. Rc2 e4 15. Nd4 c5 16. dxc6 Bxc6 17. Nxc6 Rxc6 18. Nd5 Nxd5 19. cxd5 Rxc2 20. Qxc2 Nc5 21. b4 Nd3 22. Bxd3 exd3 23. Qxd3 Be5 24. Qxa6 Bxh2+ 25. Kxh2 Qc7 26. Qd3 Kg7 27. e4 Rc8 28. f4 Qc3 29. Qxc3+ Rxc3 30. e5 Rd3 31. e6 Kf8 32. f5 Rxd5 33. fxg6 hxg6 34. Rxf7+ Kg8 35. Rb7 Re5 36. e7 Kf7 37. Rxb6 Rxe7 38. Rxd6 Ra7 39. Rd2 Ra4 40. b5 Rb4 41. Rd5 Rb2 42. a4 Rb4 43. a5 Ke6 44. Rc5 Kd6 45. Rc6+ Kd7 46. a6 Rxb5 47. Rxg6 Ke7 48. Rg7+ Kf6 49. a7 Ra5 50. Rb7 Ke6 51. h4 Kd6 52. h5 Rxh5+ 53. Kg3 Ra5 54. Rh7 Ra3+ 55. Kh4 Kc6 56. g4 Kb6 57. Kh5 Ra1 58. Kg6 Ra6 59. g5 Kc5+ 60. Kh5 Kd6 61. g6 Ke6 62. Kh6 Kf6 63. Rf7+ Ke6 64. Kh7 Ra1 65. Kg8 Ra2 66. g7 Ra3 67. Kf8 1-0
+
+
