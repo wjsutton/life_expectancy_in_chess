@@ -7,7 +7,7 @@ import glob
 import datetime
 
 with open('data/standard_matches/lichess_db_standard_rated_2013-01.pgn') as pgn:
-    for file in range(100):
+    for file in range(10000):
 
         start_positions = pd.read_csv('data\\start_positions.csv')
 
@@ -262,21 +262,25 @@ del rates['player']
 
 survival_df = pd.merge(survival_df,rates, on ='id',how='inner')
 
-print(match_df)
+white_checkmate = match_df.loc[(match_df['piece_id'] == 'B-K') & (match_df['result'] == 'white wins') ]
+black_checkmate = match_df.loc[(match_df['piece_id'] == 'W-K') & (match_df['result'] == 'black wins') ]
+checkmate_df = pd.concat([white_checkmate,black_checkmate])
 
-checkmate_df = []
-# King checkmate position
-if pd.unique(match_df['result'].values) in ['white wins','black wins']:
-    king_df = np.where(pd.unique(match_df['result'])=='white wins',match_df.loc[(match_df['piece_id'] == 'B-K')],match_df.loc[(match_df['piece_id'] == 'W-K')])
-    king_df = king_df.iloc[-1]
-    killer_df = match_df.iloc[-1]
-    checkmate_df = king_df[['Site','BlackElo','WhiteElo','Opening','to']]
-    checkmate_df['killed'] = king_df['piece_id']
-    checkmate_df['piece_id'] = killer_df['piece_id']
-    checkmate_df = pd.DataFrame(checkmate_df)
-    checkmate_df = checkmate_df.T
-    print(len(checkmate_df))
-    print(checkmate_df)
+white_lastmove = match_df.loc[(match_df['result'] == 'white wins')][['Site','index']]
+black_lastmove = match_df.loc[(match_df['result'] == 'black wins')][['Site','index']]
+
+white_lastmove = white_lastmove.groupby(['Site'],as_index=False)['index'].agg({'index':'max'})
+white_lastmove = pd.merge(match_df,white_lastmove,on = ['index','Site'],how='inner')
+white_lastmove['killed'] = 'B-K'
+white_lastmove = white_lastmove[['Site','killed','piece_id']]
+
+black_lastmove = black_lastmove.groupby(['Site'],as_index=False)['index'].agg({'index':'max'})
+black_lastmove = pd.merge(match_df,black_lastmove,on = ['index','Site'],how='inner')
+black_lastmove['killed'] = 'W-K'
+black_lastmove = black_lastmove[['Site','killed','piece_id']]
+
+lastmove_df = pd.concat([white_lastmove,black_lastmove])
+checkmate_df = pd.merge(checkmate_df[['Site','BlackElo','WhiteElo','Opening','to']],lastmove_df,on = 'Site',how='inner')
 
 death_df = match_df[['Site','BlackElo','WhiteElo','Opening','to','killed','piece_id']]
 death_df = death_df[death_df['killed'].notnull()]
@@ -291,6 +295,10 @@ death_df['WhiteElo'] = death_df['WhiteElo'].str.replace('?','0',regex=False)
 
 death_df['BlackElo'] = death_df['BlackElo'].str.replace('.*[-].*','0',regex=True)
 death_df['WhiteElo'] = death_df['WhiteElo'].str.replace('.*[-].*','0',regex=True)
+print(death_df['BlackElo'])
+print(death_df['WhiteElo'])
+death_df['BlackElo'] = death_df['BlackElo'].fillna(0)
+death_df['WhiteElo'] = death_df['WhiteElo'].fillna(0)
 death_df['BlackElo'] = death_df['BlackElo'].astype(int)
 death_df['WhiteElo'] = death_df['WhiteElo'].astype(int)
 
@@ -363,6 +371,8 @@ death_df['WhiteElo_broad'] =  np.select(
             ], 
             default='Unknown'
         )
+
+death_df['Opening'] = death_df['Opening'].fillna('Unknown')
 
 death_df['Opening_broad'] =  np.select(
             [
