@@ -6,6 +6,7 @@ import numpy as np
 import glob
 import datetime
 
+
 def match_survival(pgn):
     start_positions = pd.read_csv('data\\start_positions.csv')
 
@@ -49,7 +50,8 @@ def match_survival(pgn):
     pat = ['white','black']
     df = df.assign(player=[*islice(cycle(pat), len(df))])
         
-    df['LAN'] = df['LAN'].str.replace('O-O-O','O-OO',regex=False)
+    df['LAN'] = df['LAN'].str.replace('O-O-O.*','O-OO',regex=True)
+    df['LAN'] = df['LAN'].str.replace('O-O.*','O-O',regex=True)
     df[['from_and_piece', 'to_and_result']] = df['LAN'].str.split('-|x',expand=True)
 
     df['from'] = df['from_and_piece'].str.strip().str[-2:] 
