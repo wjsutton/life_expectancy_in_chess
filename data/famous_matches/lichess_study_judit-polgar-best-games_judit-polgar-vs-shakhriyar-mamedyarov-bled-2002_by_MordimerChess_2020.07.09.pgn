@@ -1,0 +1,17 @@
+[Event "Bled Olympiad"]
+[Site "Bled SLO"]
+[Date "2002.10.29"]
+[Round "4"]
+[White "Judit Polgar"]
+[Black "Shakhriyar Mamedyarov"]
+[Result "1-0"]
+[WhiteElo "2685"]
+[BlackElo "2580"]
+[UTCDate "2020.07.09"]
+[UTCTime "08:20:22"]
+[Variant "Standard"]
+[ECO "C80"]
+[Opening "Ruy Lopez: Open, Karpov Gambit"]
+[Annotator "https://lichess.org/@/MordimerChess"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5 Be6 9. Nbd2 Nc5 10. c3 d4 11. Ng5 (11. Bxe6 Nxe6 12. cxd4 Ncxd4 13. a4 (13. Ne4)  (13. Nxd4)) 11... Bd5? { Mistake. Qxg5 was best. } (11... Qxg5 12. Qf3 Bd7? (12... Kd7?? 13. Bd5 Bxd5 14. Qxd5+ Bd6 15. cxd4 Nxd4 16. Nc4 Qg6 17. exd6 $18)  (12... O-O-O 13. Qxc6 $10) 13. Bxf7+ Ke7 14. Bd5 $18) 12. Nxf7 Kxf7 (12... Bxf7 13. Bxf7+ Kxf7 14. Qf3+ Kg8 15. Qxc6 $16) 13. Qf3+ Ke6 14. Qg4+ Kf7? { Mistake. Ke7 was best. } (14... Ke7 15. e6 Bxe6 16. Re1 $16) 15. Qf5+ Ke7? { Mistake. Kg8 was best. } (15... Kg8 16. e6 Ne5 17. Qxe5 Nxb3 18. Qf5 Qe7 19. Qxd5 Nxa1 20. Qxa8 Qxe6 21. cxd4 Nc2 22. d5) 16. e6 Bxe6 17. Re1 Qd6? { Mistake. Qd7 was best. } (17... Qd7 18. Qxc5+ Kd8 19. Qg5+ Be7 20. Qxg7 Rg8 21. Qxh7 Bd5 22. Bxd5 Qxd5 23. Nf3 $18) 18. Bxe6 Nxe6 19. Ne4 (19. Nb3 Kd7 20. Nc5+ Kc8 21. Rxe6 Qxc5 22. Re5+ $18) 19... Qe5 20. Bg5+ Kd7 21. Nc5+ Bxc5 22. Qf7+ Kd6 (22... Ne7 23. Rxe5 Nxg5 24. Rxg5 $18)  (22... Kc8 23. Rxe5 Nxe5 24. Qxe6+ Nd7 25. cxd4 Bb6 $18) 23. Be7+ Kd5? { Checkmate is now unavoidable. Nxe7 was best. } { 1-0 Black resigns. } (23... Nxe7 24. Rxe5 Kxe5 (24... Kc6 25. Rxe6+) 25. Re1+ Kd5 26. Qxe6#) 24. Qf3+ Kc4 (24... Qe4 25. c4+ Kxc4 26. Qb3#) 25. b3# 1-0

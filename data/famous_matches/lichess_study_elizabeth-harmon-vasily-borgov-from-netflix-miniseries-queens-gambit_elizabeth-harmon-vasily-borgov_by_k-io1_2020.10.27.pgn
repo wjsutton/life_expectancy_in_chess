@@ -1,0 +1,22 @@
+[Event "Import, from Netflix series "Queen's Gambit", PGN by agadmator"]
+[Site "https://lichess.org/FXsStJfd"]
+[Date "2020.10.27"]
+[White "Elizabeth Harmon"]
+[Black "Vasily Borgov"]
+[Result "1-0"]
+[TimeControl "-"]
+[Termination "Normal"]
+[UTCDate "2020.10.27"]
+[UTCTime "08:02:46"]
+[Variant "Standard"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted: Central Variation, Modern Defense"]
+[Annotator "https://lichess.org/@/k-io1"]
+
+1. d4 d5 2. c4 dxc4 3. e4 Nc6 4. Be3 Nf6 5. Nc3 e5 6. d5 Ne7? { Mistake. Na5 was best. } (6... Na5 7. Qa4+ c6 8. dxc6 Nxc6 9. Bxc4 Bb4 10. Nf3 Bd7 11. O-O) 7. Bxc4 Ng6 8. f3 Bd6 9. Qd2 Bd7 10. Nge2 a6 11. Bb3 b5 12. a4 O-O 13. O-O Qe7 14. Rac1 Nh5 15. g3 h6 16. Bc2 Rab8 17. axb5 axb5 18. Ra1 Ra8?! { Inaccuracy. Bh3 was best. } (18... Bh3 19. Rf2) 19. Bd3 Bb4 20. Rxa8 Rxa8 21. Qc2 Bc5 22. Nd1 Bd6 23. Nf2 Nhf4 24. Rc1?! { Inaccuracy. gxf4 was best. } (24. gxf4 exf4) 24... Qg5 25. Kh1 Qh5 26. Ng1 Nxd3 27. Nxd3 f5 28. Nc5 Bc8 29. Rf1?! { Inaccuracy. Qe2 was best. } (29. Qe2 Rb8) 29... Ne7 30. Qd3 fxe4 31. fxe4 Qg6?! { Inaccuracy. Kh7 was best. } (31... Kh7) 32. Kg2 Kh7 33. Nf3 Ng8 34. Nh4?! { Inaccuracy. h3 was best. } (34. h3 Bxc5 35. Bxc5 Nf6 36. Nxe5 Qh5 37. Ng4 Nxg4 38. e5+ Qg6 39. Qxg6+ Kxg6 40. hxg4 Bb7) 34... Qg4 35. Nf5 Nf6? { Mistake. Ra2 was best. } (35... Ra2 36. h3) 36. h3 { Adjourned after 36. h3, in the Netflix series. Up to this point, the game is based on that spectacular draw between Ivanchuk and Wolff from the 1993 Biel Interzonal. } 36... Qg6 37. Ne6 Ra4 38. b3 Rxe4 39. Nxd6 Bxe6 40. dxe6 cxd6 41. e7 d5 { The move that dazzled Beth. Townes whispers: "Shit... He's not doing what he was supposed to do."
+Now, both players continue without their preparation - now it's a battle of intelligence.
+This is when Beth starts to look at the ceiling, playing through possible continuations in her imagination. } 42. Bc5 Qe8 43. Qf3 Qc6 44. b4 Qe8?? { Blunder. Kg8 was best. } { "Draw?" - Commentator explains: "Borgov never offers draws, but he's offering Elizabeth Harmon one. If she accepts, she leaves the stage in a tie with the world champion. If they play on, once the dust settles and the end game emerges, she could find herself in a very different position. Borgov is death on end games. He's famous for it. Harmon, on the other hand, is not. She's more know for coming out early and strong and demoralizing her opponents from the start. So I think she should accept the draw. The world will see it as a solid achievement. A draw however is not a win. And then one thing we know about Elizabeth Harmon is that she loves to win."
+Elizabeth declines the draw. } (44... Kg8 45. Qd3 Kf7 46. Rf5 Rc4 47. Rxe5 Re4 48. Rf5 d4 49. Rf3 Re3 50. Qf5 Qxf3+ 51. Qxf3) 45. Qf5+ Kh8 46. Qxf6 gxf6 47. Rxf6 Qh5 48. Rf8+ Kg7 49. e8=Q { Commentator: "That check has been the whole point of the sequence. Beginning with the bishop, cutting down the scope of the rook by forcing it to a less threatening rank. The question is: what will she do now?" } 49... Re2+?! { Inaccuracy. Qxe8 was best. } 50. Kf1 Qxh3+?? { Checkmate is now unavoidable. Qxe8 was best. } (50... Qxe8) 51. Kxe2 Qg2+ 52. Rf2 Qe4+ 53. Kd2 { 1-0 Black resigns. } { Ever so slowly Elizabeth Harmon moves to Kd2, not believing that she won. Beth looks up and sees Borgov smiling: "It's your game.", grabbing his King piece: "Take it."
+She embraces the piece. Borgov stands up, Harmon follows. Everyone applauds and the two masters hug briefly. Borgov applauds.
+https://www.netflix.com/watch/81301714
+https://www.youtube.com/watch?v=oIMaTKOZG-8 } 1-0
